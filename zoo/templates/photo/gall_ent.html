@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+<div class="title_grey">
+exhibitions
+</div>
+{% endblock %}
+
+{% block gall_ent %}
+
+{% for gallery in gallery_list %}
+<a href="/galleries/{{gallery.gallery_type.gallery_type}}/{{gallery.gallery.title_slug}}">{{gallery.gallery.title}}</a></br>
+{% endfor %}    
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

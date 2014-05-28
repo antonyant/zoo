@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<div class="title_grey">
+{{ flatpage.title }}
+</div>
+{% endblock %}
+
+
+{% block body %}
+
+<div class="flatpage_content">
+
+{{ flatpage.content|safe }}
+
+</div>
+
+
+{% endblock %}
+
+
+
+
