@@ -29,21 +29,34 @@
 
 <div class="wrapper">
 
-<div class="main_content">
+<table width="100%" border=”0” cellspacing=”-1” cellpadding=”-1”>
 
-<div class="content">
+<tr> 
+  <td valign="top" width="7%" rowspan="2"><div class="bg_left"></div></td>
+  <td valign="top" colspan="4" width="86%"><div class="logo"></div></td>
+  <td valign="top" width="7%" rowspan="2"><div class="bg_right"></div></td>
+</tr>
+<tr>
+  <td valign="top"><div class="menu_bg"></div></td>
+  <td valign="top"><div class="menu">
+<b>
+{% load tree_menu_tags %}
+{% show_menu "mainMenu" "unordered-list" %}
+</b>
 
+</div><div class="news"></div></td>
+  <td valign="top"><div class="content">
 {% block body %}{% endblock %}
 {% block gall_ent %}{% endblock %}
 
-</div>
+</div></td>
+  <td valign="top"><div class="content_bg"></div></td>
+</tr>
 
-   <div class="menu">
-{% load tree_menu_tags %}
-{% show_menu "mainMenu" "unordered-list" %}
-  </div>
+</table>
 
-</div>
+<div class="footer"></div>
+<div class="footer_text">W: http://zerooneone.com  |  P: 0433871421  |  E: info@zerooneone.com  |   ABN: 61 296 762 067</div>
 
 </div>
 
