@@ -1,0 +1,46 @@
+#graph_frame1 {
+	width: 686px;
+	height: 250px;
+	margin: -250px auto 0px auto;
+	background-image: none;
+	background-repeat:no-repeat;
+	background-image: url(../img/graph_stage.png);
+}
+
+#graph_frame2 {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	left: 12px;
+	top: 12px;	
+	background-repeat:no-repeat;
+	background-size: 250px 250px;
+	-webkit-transition: 3s ease-in-out;
+	-moz-transition: 1s ease-in-out;
+	-o-transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
+}
+
+.graph_frame2_text {
+	width: 370px;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 20px 20px 20px;
+	float:right;
+	border: 12px #231f20 solid;
+        background: white;
+	border-radius: 7px 7px;
+	-webkit-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+#graph_frame2:hover {
+	-webkit-transform:translateX(200px) scale(1.4);
+}
+#graph_frame2:hover + #graph_frame1 .graph_frame2_text{
+	border: none;
+	-webkit-text-fill-color: transparent;
+	border: none;
+        background: transparent;
+}

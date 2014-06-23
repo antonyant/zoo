@@ -1,4 +1,5 @@
 {% load staticfiles %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,7 +12,6 @@
 
     <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" /> 
 
-
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,44 +19,82 @@
 
     <!-- This file stores the projects specific CSS -->
     <link href="{% static 'css/zoo.css' %}" rel="stylesheet">
+    <link href="{% static 'css/lightbox_gall.css' %}" rel="stylesheet" >
+    <link href="{% static 'css/birds.css' %}" rel="stylesheet" >
+    <link href="{% static 'css/web.css' %}" rel="stylesheet" >
+    <link href="{% static 'css/graph.css' %}" rel="stylesheet" >
 
     <!-- Use this to quickly test CSS changes in a template,
         then move to zoo.css -->
     {% block extra_css %}{% endblock extra_css %}
   </head>
 
-<body>
 
 <div class="wrapper">
-
-<table width="100%" border=”0” cellspacing=”-1” cellpadding=”-1”>
-
-<tr> 
-  <td valign="top" width="7%" rowspan="2"><div class="bg_left"></div></td>
-  <td valign="top" colspan="4" width="86%"><div class="logo"></div></td>
-  <td valign="top" width="7%" rowspan="2"><div class="bg_right"></div></td>
-</tr>
-<tr>
-  <td valign="top"><div class="menu_bg"></div></td>
-  <td valign="top"><div class="menu">
-<b>
+<body>
+<table valign="top" width="100%" border=”0” cellspacing=”-1” cellpadding=”-1”>
+  <tr> 
+    <td valign="top" width="7%" rowspan="2"><div class="bg_left"></div>
+    </td>
+    <td valign="top" colspan="4" width="86%">
+      <div class="logo"></div>
+      <div id="box1"></div>
+      <div id="box2"></div>
+      <div id="box3"></div>
+      <div id="box4"></div>
+    </td>
+    <td valign="top" width="7%" rowspan="2"><div class="bg_right"></div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><div class="menu_bg"></div>
+    </td>
+    <td valign="top">
+      <div class="menu">
+      <b>
 {% load tree_menu_tags %}
 {% show_menu "mainMenu" "unordered-list" %}
-</b>
+      </b>
+      </div>
+      <div class="news">
 
-</div><div class="news"></div></td>
-  <td valign="top"><div class="content">
+<h2>Featured</h2>
+<hr></hr>
+<h3>Websites tour</h2>
+<img width="110" src="{% static 'img/tour_1.jpg' %}">
+<p>Info regarding the process of building a new website</p>
+<hr></hr>
+<h3>Stop animation</h2>
+<img width="110" src="{% static 'img/tour_1.jpg' %}">
+<p>Some short clips from a stop animation party</p>
+<hr></hr>
+      </div>
+      <div class="news">
+<h3>Rss</h2>
+<p>and social networking crap</p>
+<hr></hr>
+<p>&nbsp;</p>
+<img width="160" src="{% static 'img/logo_python_small.png' %}">
+<p>&nbsp;</p>
+<img width="160" src="{% static 'img/logo_django_small.png' %}">
+
+      </div>
+    </td>
+    <td valign="top">
+      <div class="content">
 {% block body %}{% endblock %}
 {% block gall_ent %}{% endblock %}
-
-</div></td>
-  <td valign="top"><div class="content_bg"></div></td>
-</tr>
-
+      </div>
+    </td>
+    <td valign="top">
+      <div class="content_bg"></div>
+    </td>
+  </tr>
 </table>
 
 <div class="footer"></div>
-<div class="footer_text">W: http://zerooneone.com  |  P: 0433871421  |  E: info@zerooneone.com  |   ABN: 61 296 762 067</div>
+
+<div class="footer_text">copyright zerooneone 2014  |  P: 0433871421  |  E: info@zerooneone.com  |   ABN: 61 296 762 067</div>
 
 </div>
 
@@ -65,5 +103,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     {% block extra_js %}{% endblock extra_js %}
-  </body>
+
+</body>
+
 </html>

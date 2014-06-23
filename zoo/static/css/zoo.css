@@ -10,138 +10,178 @@ a,abbr,acronym,address,applet,b,big,body,caption,center,cite,code,dd,del,dfn,div
          url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
 	text-decoration: none;
     	font-style: bold;
-
 }
 
 body,td,th {
 	color:#221e1f;
-
 }
+
+h2,h3 {
+	color:#82bfeb;
+}
+
+hr {
+	color:#f4f0de;
+}
+
 body {
 	background-image: none;
 	background-color:#231f20;
-    	font-family: 'arial';
+    	font-family: 'Arial Black';
 	text-decoration: none;
-    	font-style: bold;
-
 }
+
 .wrapper {
+	width: 1372px;
 	margin: 0px auto 30px auto;
 	padding: 0px 0px 0px 0px;
 	background-color:#fff;
-	width: 1372px;
 	/*border: thin #cccccc solid;*/			
 }
+
 .bg_left {
 	margin: -3px 0px 0px -3px;
+	height:1000px;	
 	background-image: url(../img/grunge_bg_left.png);
-	background-repeat:no-repeat;
-	height:1000px;		
+	background-repeat:no-repeat;	
 }
+
 .bg_right {
+	height:1000px;
 	margin: -3px -3px 0px 0px;
 	background-image: url(../img/grunge_bg_right.png);
-	background-repeat:no-repeat;
-	height:1000px;		
+	background-repeat:no-repeat;		
 }
+
 .menu_bg {
-	margin: 0px -8px 0px 0px;
 	width: 80px;
 	height:500px;
+	margin: 0px -8px 0px 0px;
 	background-image: url(../img/grunge_menu_left.png);	
 	background-repeat:no-repeat;	
 }
 
 .content_bg {
-	margin: -1px 0px 0px -3px;
 	width: 80px;
 	height:500px;
+	margin: -1px 0px 0px -3px;
 	background-image: url(../img/grunge_content_right.png);	
 	background-repeat:no-repeat;	
 }
 
 .logo {
-	background-image: url(../img/011_logo.jpg);
-	margin: 20px 0px 0px 0px;
-	background-repeat:no-repeat;
 	width: 100%;
-	height:340px;		
+	height:340px;
+	margin: 20px 0px 0px 0px;
+	background-image: url(../img/011_logo.jpg);
+	background-repeat:no-repeat;		
 }
+
 .content a:link {
 	color:#727173;;
 	text-decoration: none;
 }
+
 .content a:visited{
 	color:#727173;
 	text-decoration: none;
 }
+
 .content a:hover{
 	color:#8b8d90;
 }
 
 .content {
+	width: 710px;
 	margin: 0px 0px 0px 0px;
-	padding: 50px 50px 50px 50px;
-	width: 670px;
-	height: 500px;
+	padding: 30px 30px 30px 30px;
 	float:right;
-    	font-family: 'arial';
+    	font-family: 'Arial Black';
 	border: 12px #231f20 solid;
-	text-decoration: none;
-    	font-style: bold;			
+	text-decoration: none;			
 }
+
 .menu_container {
 	margin: 0px 0px 0px 0px;
 	width: 198px;
-	float:left;
-    	font-family: 'arial';
-	text-decoration: none;
-    	font-style: bold;			
+	float:left;			
 }
-.news{
+
+.news {
 	margin: 9px 0px 0px -2px;
-	width: 194px;
-	height: 294px;
+	padding: 20px 20px 20px 20px;
+	width: 154px;
 	border: 12px #231f20 solid;
+	font-size: .9em;
+    	font-family: 'Arial Black';
 }
+
 .menu {
+	width: 188px;
+	height: 152px;
 	margin: 0px 0px 0px -2px;
-	padding: 15px 0px 0px 23px;
-	width: 171px;
-	height: 159px;
+	padding: 22px 0px 0px 6px;
 	border: 12px #231f20 solid;
 }
-.menu a:link, a:visited{
+
+.menu a:link, a:visited {
 	color:#231f20;
 	text-decoration: none;
-    	font-style: bold;
 }
-.menu a:hover{
+
+.menu a:hover {
 	color:#7fc9fd;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
+
+.menu_item:hover {
+	-webkit-transform: rotateX(180deg) translateY(-5px);
+	-moz-transform: ; rotateX(180deg) translateY(-5px);
+	-o-transform:  rotateX(180deg) translateY(-5px);
+	-ms-transform:  rotateX(180deg) translateY(-5px);
+	transform:  rotateX(180deg);
+}
+
 .menu_item {
-	margin: 4px 0px 0px 10px;
+	height:21px;
+	margin: 0px 0px 0px 10px;
 	padding: 0px 0px 0px 0px;
-	height:20px;
 	font-size: 1.1em;
-	font-family: 'arial';
+    	font-family: 'Arial Black';
 	text-decoration: none;
-    	font-style: bold;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
+.truck_silo {
+	width: 430px;	
+	height: 287px;
+	margin: -150px 0px 0px 0px;
+	position: relative;
+	z-index: 1;
+	background-image: url(../img/truck_silo.png);
+	background-repeat:no-repeat;
+	background-color:none;
+	float:right;	
+}
+
 .footer {
+	width: 950px;	
+	height: 201px;
+	margin: 30px auto 0px auto;
 	background-image: url(../img/footer_wave.jpg);
 	background-repeat:no-repeat;
-	background-color:#fff;
-	margin: 30px auto 0px auto;
-	width: 950px;	
-	height: 201px;		
+	background-color:#fff;	
 }
-
 .footer_text {
-
-	margin: 0px auto 0px auto;
 	width: 710px;	
 	height:50px;
-	font-size: 1.1em;
-	font-family: 'arial';
+	margin: 0px auto 0px auto;
+	font-size: .9em;
+    	font-family: 'Arial Black';
 }
+
