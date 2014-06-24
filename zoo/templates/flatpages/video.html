@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock %}
+
+
+{% block body %}
+
+
+
+
+
+<div class="contact_content">
+{{ flatpage.content|safe }}
+ </div> 
+
+
+{% load embed_video_tags %}
+
+
+{% video item.video 'small' %}
+
+{# or use variables (with embedding, too) #}
+{% video item.video as my_video %}
+    URL: {{ my_video.https://www.youtube.com/watch?v=tHQWLZfKJzY&feature=youtu.be }}
+    Thumbnail: {{ my_video.thumbnail }}
+    Backend: {{ my_video.backend }}
+    {% video my_video 'small' %}
+{% endvideo %}
+
+
+
+
+
+{% endblock %}
+

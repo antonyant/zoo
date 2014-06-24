@@ -185,3 +185,14 @@ body {
     	font-family: 'Arial Black';
 }
 
+.truck_img {
+	width: 450px;
+	height: 322px;
+	border: 13px #231f20 solid;	
+	background-image: none;
+	background-repeat:no-repeat;
+	background: #f4f0de;
+	border-radius: 7px 7px;
+
+}
+

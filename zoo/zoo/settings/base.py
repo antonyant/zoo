@@ -198,6 +198,7 @@ LOCAL_APPS = (
     'tinymce', 
     'gallery_orders', 
     'pytz',
+    'embed_video',
 
 )
 
