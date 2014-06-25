@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% load embed_video_tags %}
+
+{% block body %}
+<div class="player">
+<h3>{{ object.title }}</h3>
+{% video object.video as my_video %}
+{% video my_video '640x360' %}</br>
+<a href="{% url 'posts:list' %}" class="pull-right">Back to list</a>
+{% endvideo %}
+</div>
+
+{% endblock %}
