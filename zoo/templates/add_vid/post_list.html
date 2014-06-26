@@ -1,12 +1,9 @@
 {% extends "base.html" %}
-
 {% load embed_video_tags %}
-
 {% block body %}
 <h2>ZeroOneOne video posts</h2>
 <p>&nbsp;</p>
 {% for post in object_list %}
-
 {% video post.video as video %}
 <a href="{{ post.get_absolute_url }}">
   <table valign="top" width="100%" border=”0” cellspacing=”0” cellpadding=”0”>
@@ -19,17 +16,14 @@
       </td>
       <td valign="top" >
         <div class="vid_thumb">
-          <img src="{{ video.thumbnail }}" width=360 height=203 class="img-rounded">
+          <img src="{{ video.thumbnail }}" width="360px" height="203px">
         </div>
       </td>
     </tr>
   </table>
 </a>
 {% endvideo %}
-
 {% endfor %}
-
-
   <ul class="pager">
     {% if page_obj.has_previous %}
     <li class="previous"><a href="?page={{ page_obj.previous_page_number }}">&larr; Older</a></li>

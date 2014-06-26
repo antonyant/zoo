@@ -16,28 +16,27 @@
 <![endif]--> 
 
 <body id="page">
-        <div class="container">
-			<section>
-				<ul class="lb-album">
+  <div class="container">
+    <section>
+      <ul class="lb-album">
 {% for photo in photo_list %}
-					<li>
-						<a href="#{{photo.title}}">
-							<img src="{{photo.get_admin_thumbnail_url}}" alt="image01">
-							<span>{{photo.title|safe}}</span>
-						</a>
-						<div class="lb-overlay" id="{{photo.title}}">
-							<img src="{{photo.get_gallery_photo_url}}" alt="image01" />
-							<div>
-								<h3>{{photo.title|safe}}<span>/3d rendering/</h3>{{photo.caption|safe}}
-								
-							</div>
-							<a href="#page" class="lb-close">x Close</a>
-						</div>
-					</li>
+        <li>
+	  <a href="#{{photo.title}}">
+	    <img src="{{photo.get_admin_thumbnail_url}}" alt="image01">
+	    <span>{{photo.title|safe}}</span>
+	  </a>
+          <div class="lb-overlay" id="{{photo.title}}">
+	    <img src="{{photo.get_gallery_photo_url}}" alt="image01" />
+	    <div>
+	      <h3>{{photo.title|safe}}<span>/3d rendering/</h3>{{photo.caption|safe}}
+            </div>
+            <a href="#page" class="lb-close">x Close</a>
+          </div>
+	</li>
 {% endfor %}
-				</ul>
-			</section>
-        </div>
+      </ul>
+    </section>
+  </div>
 {% endblock %}
 
 

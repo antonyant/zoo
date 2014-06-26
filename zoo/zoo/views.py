@@ -4,7 +4,6 @@ from django.shortcuts import render_to_response, get_object_or_404, get_list_or_
 from gallery_orders.models import GalleryOrder
 from photologue.models import Gallery, Photo
 
-
 def galleries(request, tag, slug, context={}, template='photo/gallery_single.html'):
     '''
 

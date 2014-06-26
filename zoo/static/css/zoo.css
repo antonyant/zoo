@@ -196,3 +196,47 @@ body {
 
 }
 
+.vid_thumb {
+	width: 360px;
+	height: 203px;
+	margin: 5px 0px 5px 10px;
+	padding: 0px 0px 0px 0px;
+	border: 13px #231f20 solid;	
+	background-image: none;
+	background-repeat:no-repeat;
+	background: #f4f0de;
+	border-radius: 7px 7px;
+	float:right;
+}
+
+.vid_text {
+	height:203px;
+	margin: 30px auto 0px auto;
+	font-size: .9em;
+    	font-family: 'Arial Black';
+	float:left;
+}
+
+.player {
+	width: 640px;
+	margin: 0px auto 0px auto;
+}
+
+.fade {
+	-webkit-transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+	-o-transition: 2s ease-in-out;
+	transition: 2s ease-in-out;
+
+}
+
+.fade a:link, a:visited {
+	color:#231f20;
+	text-decoration: none;
+}
+
+.fade a:hover {
+	opacity: 0.5;
+}
+
+

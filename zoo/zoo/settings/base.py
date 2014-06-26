@@ -199,6 +199,7 @@ LOCAL_APPS = (
     'gallery_orders', 
     'pytz',
     'embed_video',
+    'add_vid',
 
 )
 

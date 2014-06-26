@@ -9,5 +9,6 @@ django-treemenus==0.9.0
 django-photologue==2.7
 django-tagging==0.3.2
 django-tinymce==1.5.2
+django-embed-video
 pytz==2014.1
 

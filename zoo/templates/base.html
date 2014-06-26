@@ -1,7 +1,7 @@
 {% load staticfiles %}
-
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <title>Zero One One</title>
@@ -9,95 +9,99 @@
     <meta name="description" content=" " /> 
     <meta name="keywords" content="" /> 
     <meta name="author" content="">
-
     <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" /> 
-
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <!-- This file stores the projects specific CSS -->
     <link href="{% static 'css/zoo.css' %}" rel="stylesheet">
     <link href="{% static 'css/lightbox_gall.css' %}" rel="stylesheet" >
     <link href="{% static 'css/birds.css' %}" rel="stylesheet" >
     <link href="{% static 'css/web.css' %}" rel="stylesheet" >
     <link href="{% static 'css/graph.css' %}" rel="stylesheet" >
-
     <!-- Use this to quickly test CSS changes in a template,
         then move to zoo.css -->
     {% block extra_css %}{% endblock extra_css %}
   </head>
 
 
-<div class="wrapper">
 <body>
-<table valign="top" width="100%" border=”0” cellspacing=”-1” cellpadding=”-1”>
-  <tr> 
-    <td valign="top" width="7%" rowspan="2"><div class="bg_left"></div>
-    </td>
-    <td valign="top" colspan="4" width="86%">
-      <div class="logo"></div>
-      <div id="box1"></div>
-      <div id="box2"></div>
-      <div id="box3"></div>
-      <div id="box4"></div>
-    </td>
-    <td valign="top" width="7%" rowspan="2"><div class="bg_right"></div>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><div class="menu_bg"></div>
-    </td>
-    <td valign="top">
-      <div class="menu">
-      <b>
+  <div class="wrapper">
+    <table valign="top" width="100%" border=”0” cellspacing=”-1” cellpadding=”-1”>
+      <tr> 
+        <td valign="top" width="7%" rowspan="2"><div class="bg_left"></div>
+        </td>
+        <td valign="top" colspan="4" width="86%">
+          <div class="logo"></div>
+          <div id="box1"></div>
+          <div id="box2"></div>
+          <div id="box3"></div>
+          <div id="box4"></div>
+        </td>
+        <td valign="top" width="7%" rowspan="2"><div class="bg_right"></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><div class="menu_bg"></div>
+        </td>
+        <td valign="top">
+          <div class="menu"><b>
 {% load tree_menu_tags %}
-{% show_menu "mainMenu" "unordered-list" %}
-      </b>
-      </div>
-      <div class="news">
-
-<h2>Featured</h2>
-<hr></hr>
-<h3>Websites tour</h2>
-<img width="140" src="{% static 'img/tour_1.jpg' %}">
-<p>Info regarding the process of building a new website</p>
-<hr></hr>
-<h3>Youtube</h2>
-<img width="140" src="{% static 'img/clapper.jpg' %}">
-<p>A few vids from our youtube channel</p>
-<hr></hr>
-<p>&nbsp;</p>
-<img width="160" src="{% static 'img/logo_python_small.png' %}">
-<p>&nbsp;</p>
-<img width="160" src="{% static 'img/logo_django_small.png' %}">
-      </div>
-    </td>
-    <td valign="top">
-      <div class="content">
+{% show_menu "mainMenu" "unordered-list" %}</b>
+          </div>
+          <div class="news">
+            <h2>Featured</h2>
+            <hr></hr>
+            <h3>Websites tour</h2>
+            <div class="fade">
+              <a href="/web_info/">
+                <img class="fade" width="140" src="{% static 'img/tour_1.jpg' %}">
+                <p>Info regarding the process of building a new website</p>
+              </a>
+            </div>
+            <hr></hr>
+            <div class="fade">
+              <h3>Youtube</h2>
+              <a href="/videos/">
+                <img width="140" src="{% static 'img/clapper.jpg' %}">
+                <p>A few vids from our youtube channel</p>
+              </a>
+            </div>
+            <hr></hr>
+            <p>&nbsp;</p>
+            <div class="fade">
+              <a href="">
+                <img width="160" src="{% static 'img/logo_python_small.png' %}">
+              </a>
+            </div>
+            <p>&nbsp;</p>
+            <div class="fade">
+              <a href="">
+                <img width="160" src="{% static 'img/logo_django_small.png' %}">
+              </a>
+            </div>
+          </div>
+        </td>
+        <td valign="top">
+          <div class="content">
 {% block body %}{% endblock %}
 {% block gall_ent %}{% endblock %}
-      </div>
-    </td>
-    <td valign="top">
-      <div class="content_bg"></div>
-    </td>
-  </tr>
-</table>
-
-<div class="footer"></div>
-
-<div class="footer_text">copyright zerooneone 2014  |  P: 0433871421  |  E: info@zerooneone.com  |   ABN: 61 296 762 067</div>
-
-</div>
-
+          </div>
+        </td>
+        <td valign="top">
+          <div class="content_bg"></div>
+        </td>
+      </tr>
+    </table>
+    <div class="footer"></div>
+    <div class="footer_text">copyright zerooneone 2014  |  P: 0433871421  |  E: info@zerooneone.com  |   ABN: 61 296 762 067</div>
+  </div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     {% block extra_js %}{% endblock extra_js %}
-
 </body>
 
 </html>

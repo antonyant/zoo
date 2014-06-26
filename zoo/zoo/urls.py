@@ -17,6 +17,7 @@ urlpatterns = patterns('',
     (r'^tinymce/', include('tinymce.urls')),
     (r'^galleries/type/(?P<tag>[-\w]+)/$', galleries_tag),
     (r'^galleries/(?P<tag>[-\w]+)/(?P<slug>[-\w]+)/$', galleries),
+    url(r'^videos/', include('add_vid.urls', namespace='posts')),
 
 )
 
@@ -31,6 +32,10 @@ if settings.DEBUG:
     urlpatterns += patterns('',
                             url(r'^__debug__/', include(debug_toolbar.urls)),
                             )
+
+from django.conf.urls import patterns, url
+
+
 
 
 

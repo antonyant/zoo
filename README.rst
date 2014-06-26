@@ -35,6 +35,7 @@ Services expect a requirements.txt file in the root of projects.*
 =============================
 
 'gallery_orders'
+'add_vid'
 
 *note: These apps are located in the git repository zoo/custom_apps they need to be moved to site_packages for installation .*
 
