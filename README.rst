@@ -47,8 +47,9 @@ Services expect a requirements.txt file in the root of projects.*
 In development:
 
     $ cd zoo
+    $ cd zoo
 
-    $ python manage.py syncdb --settings=elb.settings.local
+    $ python manage.py syncdb --settings=zoo.settings.local
 
 ========================
 
@@ -64,7 +65,7 @@ In development:
 
 In development:
 
-    $ python manage.py runserver --settings=elb.settings.local
+    $ python manage.py runserver --settings=zoo.settings.local
 
 
 
