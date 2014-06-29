@@ -47,6 +47,7 @@ Services expect a requirements.txt file in the root of projects.*
 In development:
 
     $ cd zoo
+
     $ cd zoo
 
     $ python manage.py syncdb --settings=zoo.settings.local
@@ -57,6 +58,7 @@ In development:
 =============================
 
     $ python manage.py migrate photologue
+
     $ python manage.py migrate add_vid
 
 ========================
