@@ -53,10 +53,11 @@ In development:
 
 ========================
 
-5.Migrate Photologue
+5.Migrate
 =============================
 
     $ python manage.py migrate photologue
+    $ python manage.py migrate add_vid
 
 ========================
 
