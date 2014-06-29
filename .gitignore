@@ -32,7 +32,6 @@ tramp
 
 # Fabric files:
 fabsettings.py
-fabsettings.py.template
 
 # Mac
 .DS_Store
