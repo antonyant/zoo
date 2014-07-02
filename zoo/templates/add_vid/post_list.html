@@ -6,21 +6,19 @@
 {% for post in object_list %}
 {% video post.video as video %}
 <a href="{{ post.get_absolute_url }}">
-  <table valign="top" width="100%" border=”0” cellspacing=”0” cellpadding=”0”>
-    <tr> 
-      <td valign="top">
+
+
+
+
         <div class="vid_text">
           <h3>{{ post.title }}</h3>
           </p>{{ post.details }}</p>
         </div>
-      </td>
-      <td valign="top" >
+
         <div class="vid_thumb">
-          <img src="{{ video.thumbnail }}" width="360px" height="203px">
+          <img src="{{ video.thumbnail }}" width="100%">
         </div>
-      </td>
-    </tr>
-  </table>
+
 </a>
 {% endvideo %}
 {% endfor %}
