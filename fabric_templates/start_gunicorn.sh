@@ -7,7 +7,7 @@ VENV_DIR="%(virtualenv_dir)s"
 WEBAPP_DIR="%(webapp_dir)s"
 SOCKFILE=$WEBAPP_DIR/run/gunicorn.sock
 NUM_WORKERS=3
-DJANGO_WSGI_MODULE=zoo.wsgi
+DJANGO_WSGI_MODULE=zoo.zoo.wsgi
 PORT=%(port)s
 
 # Activate the virtual environment
