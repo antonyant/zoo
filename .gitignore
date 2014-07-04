@@ -7,9 +7,6 @@
 # Sphinx docs:
 build
 
-# SQLite3 database files:
-*.db
-
 # Logs:
 *.log
 
