@@ -4,7 +4,7 @@ a,abbr,acronym,address,applet,b,big,body,caption,center,cite,code,dd,del,dfn,div
 body {
     background-image: none;
     background-color:#231f20;
-    font-family: 'Chivo', sans-serif;
+font-family: 'Chivo', sans-serif;
     text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ body, html, .page {
      height: 100%;
  }
 
-.page {    font-family: 'Chivo', sans-serif;
+.page {
      margin: 0 auto;
      width: 95%;
 }

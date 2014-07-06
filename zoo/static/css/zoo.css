@@ -41,7 +41,7 @@ body, html, .page {
 
 .page {
      margin: 0 auto;
-     width: 95%;
+     max-width: 95%;
 }
 
 /* Start column grid setup */
