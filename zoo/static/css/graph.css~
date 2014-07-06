@@ -28,7 +28,7 @@
 	margin: 0% 5% 0px 0px;
 	padding: 2% 2% 2% 2%;
 	float:right;
-	border: 1em #231f20 solid;
+	border: 1vw #231f20 solid;
         background: white;
 	border-radius: 7px 7px;
 	-webkit-transition: .2s ease-in-out;

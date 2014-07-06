@@ -4,18 +4,25 @@
         background: white;
 	background-image: url(../img/img_stage.png);
 	background-repeat:no-repeat;
+	background-size:contain;	
+}
+
+#graph_stage {
+	margin: -25% 0px 0px 0px;
+        width: 100%;
+        background: white;
+	background-image: url(../img/img_stage.png);
+	background-repeat:no-repeat;
 	background-size:contain;
-        font-family: 'Chivo', sans-serif;
-        font-weight: 700;		
 }
 
 #skico_frame1 {
 	height: 20vw;
 	width: 20vw;
-	margin: 0px 0px 0px 30%;
+	margin: 0px 0px 0px 33%;
 	position: relative;
 	z-index: 1;
-	border: 1.1vw #231f20 solid;
+	border: 1.1em #231f20 solid;
         background: white;
 	background-image: url(../img/skico_web.jpg);
 	background-repeat:no-repeat;
@@ -33,7 +40,7 @@
 	position: relative;
 	left: 6%;
 	top: -20vw;
-	border: 1.1vw #231f20 solid;	
+	border: 1.1em #231f20 solid;	
 	background-image: url(../img/skico_logo.jpg);
 	background-repeat:no-repeat;
 	background: #f4f0de;
@@ -56,8 +63,7 @@
     font-size: .7em;    /* old */
     font-size: 1vw;   /* IE9 */
     font-size: 1vw;
-        font-family: 'Chivo', sans-serif;
-        font-weight: 700;
+    	font-family: 'Arial Black';
 }
 
 #skico_frame1:hover + #skico_frame2 {
@@ -76,10 +82,10 @@
 #anca_frame1 {
 	height: 20vw;
 	width: 20vw;
-	margin: 0px 0px 0px 30%;
+	margin: 0px 0px 0px 33%;
 	position: relative;
 	z-index: 1;
-	border: 1.1vw #231f20 solid;
+	border: 1.1em #231f20 solid;
         background: white;
 	background-image: url(../img/anca_web.jpg);
 	background-repeat:no-repeat;
@@ -97,7 +103,7 @@
 	position: relative;
 	left: 6%;
 	top: -20vw;
-	border: 1.1vw #231f20 solid;	
+	border: 1.1em #231f20 solid;	
 	background-image: url(../img/anca_logo.jpg);
 	background-repeat:no-repeat;
 	background: #f4f0de;
@@ -120,8 +126,7 @@
         font-size: .7em;    /* old */
         font-size: 1vw;   /* IE9 */
         font-size: 1vw;
-        font-family: 'Chivo', sans-serif;
-        font-weight: 700;
+    	font-family: 'Arial Black';
 }
 
 #anca_frame1:hover + #anca_frame2 {
@@ -140,10 +145,10 @@
 #front_frame1 {
 	height: 20vw;
 	width: 20vw;
-	margin: 0px 0px 0px 30%;
+	margin: 0px 0px 0px 33%;
 	position: relative;
 	z-index: 1;
-	border: 1.1vw #231f20 solid;
+	border: 1.1em #231f20 solid;
         background: white;
 	background-image: url(../img/front_web.jpg);
 	background-repeat:no-repeat;
@@ -161,7 +166,7 @@
 	position: relative;
 	left: 6%;
 	top: -20vw;
-	border: 1.1vw #231f20 solid;	
+	border: 1.1em #231f20 solid;	
 	background-image: url(../img/front_logo.jpg);
 	background-repeat:no-repeat;
 	background: #f4f0de;
@@ -184,8 +189,7 @@
     font-size: .7em;    /* old */
     font-size: 1vw;   /* IE9 */
     font-size: 1vw;
-        font-family: 'Chivo', sans-serif;
-        font-weight: 700;
+    	font-family: 'Arial Black';
 }
 
 #front_frame1:hover + #front_frame2 {
@@ -204,10 +208,10 @@
 #bma_frame1 {
 	height: 20vw;
 	width: 20vw;
-	margin: 0px 0px 0px 30%;
+	margin: 0px 0px 0px 33%;
 	position: relative;
 	z-index: 1;
-	border: 1.1vw #231f20 solid;
+	border: 1.1em #231f20 solid;
         background: white;
 	background-image: url(../img/bma_web.jpg);
 	background-repeat:no-repeat;
@@ -225,7 +229,7 @@
 	position: relative;
 	left: 6%;
 	top: -20vw;
-	border: 1.1vw #231f20 solid;	
+	border: 1.1em #231f20 solid;	
 	background-image: url(../img/bma_logo.jpg);
 	background-repeat:no-repeat;
 	background: #f4f0de;
@@ -248,8 +252,7 @@
     font-size: .7em;    /* old */
     font-size: 1vw;   /* IE9 */
     font-size: 1vw;
-        font-family: 'Chivo', sans-serif;
-        font-weight: 700;
+    	font-family: 'Arial Black';
 }
 
 #bma_frame1:hover + #bma_frame2 {

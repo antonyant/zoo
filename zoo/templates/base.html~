@@ -19,8 +19,7 @@
     <link href="{% static 'css/birds.css' %}" rel="stylesheet" >
     <link href="{% static 'css/web.css' %}" rel="stylesheet" >
     <link href="{% static 'css/graph.css' %}" rel="stylesheet" >
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Chivo:900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Chivo:900,900italic,400,400italic' rel='stylesheet' type='text/css'>
     <!-- Use this to quickly test CSS changes in a template,
         then move to zoo.css -->
     {% block extra_css %}{% endblock extra_css %}
