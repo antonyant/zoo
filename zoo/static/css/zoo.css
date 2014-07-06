@@ -78,7 +78,7 @@ body, html, .page {
     ];}
 
 .content_row {
-    height:100%;
+    height:25vw;
     margin-left:0; 
     background-image: url(../img/safari_plug.png);
     background-position: 100%;
