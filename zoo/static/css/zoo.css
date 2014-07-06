@@ -394,7 +394,13 @@ body, html, .page {
 
 /*Enable for screen detect */
 
-    @media all and (max-width: 480px) and (min-width: 240px) {
+@media only screen (-moz-min-device-pixel-ratio: 3), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (-webkit-min-device-pixel-ratio: 3), 
+only screen and (min-device-pixel-ratio: 3)
+
+
+ {
      .page {
      margin: 0 auto;
      width: 100%;
@@ -490,7 +496,9 @@ display:none;
     background-position:center top;
     background-size:contain; 
 }
-
+.truck_silo {
+ display:none;	
+}
 
 
 }

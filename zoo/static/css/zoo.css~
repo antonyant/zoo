@@ -437,7 +437,7 @@ display:none;
 .menu_item {   
     font-family: 'Chivo', sans-serif;
     text-decoration: none;
-    padding: 0% 8% 0% 8%;
+    padding: 0% 7% 0% 7%;
     font-size: 1.1em;    /* old */
     font-size: 3vw;   /* IE9 */
     font-size: 3vw;
@@ -490,7 +490,9 @@ display:none;
     background-position:center top;
     background-size:contain; 
 }
-
+.truck_silo {
+ display:none;	
+}
 
 
 }
