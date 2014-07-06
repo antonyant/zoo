@@ -53,7 +53,6 @@ body, html, .page {
     -moz-background-clip:padding-box !important;
     -webkit-background-clip:padding-box !important;
     background-clip:padding-box !important;
-    background: #fff;
     margin-bottom: 0px;
 }
 /* End column grid setup */
@@ -62,25 +61,41 @@ body, html, .page {
 .header_row {
     height: 25vw; 
     margin-left:0;      
-    background-color:white; 
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;  
 }
     /* Safari only override */
 .header_row {[;
     height: 40%; 
-    margin-left:0;      
-    background-color:white;
+    margin-left:0;  
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;    
+
     ];}
 
 .content_row {
     height:100%;
-    margin-left:0;     
-    background-color:white;
+    margin-left:0; 
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;      
+
 }
 
 .footer_row {
     margin-left:0; 
-    background-color:white;   
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;  
+ 
 }
+
 /* End row setup */
 
 /*Enable for screen detect */
@@ -125,6 +140,14 @@ body, html, .page {
     background-repeat:no-repeat;
     background-size: 100%;
 }
+
+.bg_left_top_block {[;
+    width:7.0%;
+    height:100%;	
+    background-image: url(../img/grunge_bg_left.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    ];}
 
 .bg_right_top_block {
     width:7.0%;
@@ -174,7 +197,7 @@ body, html, .page {
     height:25vw;
     background-image: url(../img/011_logo.jpg);
     background-repeat:no-repeat;
-    background-position:center;
+    background-position:center top;
     background-size:contain; 
 }
 
