@@ -2,7 +2,7 @@
 {% load staticfiles %}      
 {% block body %}
 <div class="truck_silo"><img width="100%" src="{% static 'img/truck_silo.svg' %}"></div> 
-<h2>MOBILE WORKSTATION</h2>
+<h2>Mobile Workstation</h2>
 <p>&nbsp;</p>
 
 <p>The ZeroOneOne mobile workstation is used for remote development, on-site meetings and generally having a good time.</p>

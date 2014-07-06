@@ -9,17 +9,6 @@
         font-weight: 700;		
 }
 
-#gallery_stage {
-	margin: 5% 0px 0px 0px;
-        width: 100%;
-        background: white;
-	background-image: url(../img/img_stage.png);
-	background-repeat:no-repeat;
-	background-size:contain;
-        font-family: 'Chivo', sans-serif;
-        font-weight: 700;		
-}
-
 #skico_frame1 {
 	height: 20vw;
 	width: 20vw;
