@@ -87,6 +87,17 @@ body, html, .page {
 
 }
 
+    /* Safari only override */
+.content_row {[;
+    height:100%;
+    margin-left:0; 
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;     
+
+    ];}
+
 .footer_row {
     margin-left:0; 
     background-image: url(../img/safari_plug.png);
