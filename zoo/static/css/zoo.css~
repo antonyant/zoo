@@ -40,7 +40,10 @@ body, html, .page {
 .page {
      margin: 0 auto;
      width: 85%;
-     margin-bottom: 100px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border-right:1em #231f20 solid;
 }
 
 /* Start column grid setup */
@@ -72,7 +75,7 @@ body, html, .page {
     ];}
 
 .content_row {
-    height:25vw;
+    height:40vw;
     margin-left:0;     
     background-color:white;
 }
@@ -175,7 +178,7 @@ body, html, .page {
     background-image: url(../img/011_logo.jpg);
     background-repeat:no-repeat;
     background-position:center;
-    background-size:contain; 
+    background-size: 100%;
 }
 
     /* Safari only override */
@@ -184,17 +187,17 @@ body, html, .page {
     height:80%;
     background-image: url(../img/011_logo.jpg);
     background-position:center;
-    background-size:contain;
+    background-size: 100%;
     ];}
 
 .footer {
-    width:100%;
+    width:70%;
     height: 12vw;
-    margin-left:0;
+    margin:0px auto;
     background-image: url(../img/footer_wave.jpg), none;
     background-repeat:no-repeat;
     background-position:center top;
-    background-size:contain;  
+    background-size: 100%;  
     clear:both;
 
 }
