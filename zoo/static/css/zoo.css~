@@ -392,107 +392,153 @@ body, html, .page {
 }
 /*End fancy button fade*/
 
-/*Enable for screen detect */
+/*screen detect pixel ratio 3 FHD Smart phones*/
 
-    @media all and (max-width: 480px) and (min-width: 240px) {
+@media only screen (-moz-min-device-pixel-ratio: 3), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (-webkit-min-device-pixel-ratio: 3), 
+only screen and (min-device-pixel-ratio: 3),
+all and (max-width: 720px) 
+{
+
+
+/*zoo.css*/
+    .bg_left_top_block {
+    }
+
+    .bg_right_top_block {
+    }
+
+    .bg_menu_block,
+    .bg_content_block {
+    display:none;
+    }
+
+    .bg_menu_block {
+    display:none;
+    }
+
+    .bg_left_bot_block {
+    display:none;
+    }
+
+    .bg_right_bot_block {
+    display:none;
+    }
+
+    .news {
+    display:none;
+    }
+
+.truck_silo {
+	width: 30%;	
+	margin: -39% 10px 0px 0px;
+	position: relative;
+	z-index: 1;
+	background-repeat:no-repeat;
+	background-color:none;
+	float:right;	
+}
+
      .page {
      margin: 0 auto;
      width: 100%;
      margin-bottom: 100px;
-}
-    .bg_menu_block,
-    .bg_content_block {
-display:none;
-}
+     }
 
-    .bg_menu_block {
-display:none;
-}
-
-.content_block{
+    .content_block{
     width:100%;
     height:auto;
-    padding: 2% 1% 1% 1%;
-    border: 1.1em #231f20 solid;
+    padding: 4% 3% 3% 3%;
     font-size: 3vw;
-}
+    border: none;
+    }
 
-.menu_block { 
+    .menu_block { 
     width:100%;
     height:auto;    
     font-family: 'Chivo', sans-serif;   
-    font-size: 1vw;
-background-color: transparent;
-clear:both;
-}
+    padding: 0% 0% 0% 9%;
+    background-color: transparent;
+    border: 1.6em #231f20 solid;
+    clear:both;
+    }
 
-.bg_left_bot_block {
-display:none;
-}
+    .menu_item {   
+width:33%; text-align:left;
+    font-size: 2.4vw;
+    float:left;      padding: 1% 0% 1% 0%;
+    }
 
-.bg_right_bot_block {
-display:none;
-}
-
-.menu_item {   
-    font-family: 'Chivo', sans-serif;
-    text-decoration: none;
-    padding: 0% 7% 0% 7%;
-    font-size: 1.1em;    /* old */
-    font-size: 3vw;   /* IE9 */
-    font-size: 3vw;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-float:left;
-}
-
-.news {
-display:none;
-}
-
-.menu {
-    margin: 0% auto;    border: 1.1em #231f20 solid;  
+    .menu {
+    margin: 0% auto;    
     width: 100%;
     height: auto;
     padding: 0% 0% 0% 0%;
     border: none;    
-    box-sizing:border-box;background-color: transparent;
+    box-sizing:border-box;
+    background-color: transparent;
+    }
+
+.menu a:hover {
+    color:#231f20;
+    text-decoration: none;
 }
 
-h2 {
+.menu_item a.current {
+    color:#82bfeb;
+}
+
+    h2 {
     color:#82bfeb;
     text-decoration: none;
     text-transform:uppercase;
     font-size: 3.5vw;
-}
+    }
 
-h3 {
+    h3 {
     color:#82bfeb;
     text-decoration: none;
     font-size: 3vw;
+    }
+
+.header_row {
+    height: 29vw;  
+}
+    /* Safari only override */
+.header_row {[;
+    height: 40%; 
+    ];}
+
+.content_row {
+    background-image: none;     
+
 }
 
-.bg_left_top_block {
-display:none;
+    /* Safari only override */
+.content_row {[;
+    background-image: none;
+    ];}
+
+.footer_row {
+    background-image: none;     
+
 }
 
-.bg_right_top_block {
- display:none;
+    /* Safari only override */
+.footer_row {[;
+    background-image: none;
+    ];}
+
+.footer_text {
+    font-size: 1.9vw; 
 }
 
-.header {
-    width:100%;
-    height:25vw;
-    background-image: url(../img/011_logo.jpg);
-    background-repeat:no-repeat;
-    background-position:center top;
-    background-size:contain; 
+.footer {
+    height: 18vw;
 }
-.truck_silo {
- display:none;	
-}
+/*end zoo.css*/
+
 
 
 }

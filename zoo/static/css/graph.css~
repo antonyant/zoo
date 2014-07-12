@@ -28,7 +28,7 @@
 	margin: 0% 5% 0px 0px;
 	padding: 2% 2% 2% 2%;
 	float:right;
-	border: 1vw #231f20 solid;
+	border: 1em #231f20 solid;
         background: white;
 	border-radius: 7px 7px;
 	-webkit-transition: .2s ease-in-out;
@@ -45,4 +45,42 @@
 }
 #graph_frame2:hover + #graph_frame1 .graph_frame2_text{
     visibility: hidden;
+}
+
+@media only screen (-moz-min-device-pixel-ratio: 3), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (-webkit-min-device-pixel-ratio: 3), 
+only screen and (min-device-pixel-ratio: 3),
+all and (max-width: 720px) 
+{
+
+#graph_frame1 {
+	height:35vw;
+	margin: -30% auto 0px auto;
+}
+
+#graph_frame2 {
+	width: 35vw;
+	height: 35vw;
+}
+
+.graph_frame2_text {
+	width: 50vw;
+    font-size: 2.6vw;
+	margin: 0% 1% 0px 0px;
+	padding: 2% 2% 2% 2%;
+}
+
+#graph_frame2:hover {
+	-webkit-transform:translate(0%,0%) scale(1);
+	-moz-transform:translate(60%,25%) scale(1.4);
+	-o-transform:translate(60%,25%) scale(1.4);
+	transform:translate(60%,25%) scale(1.4);
+}
+#graph_frame2:hover + #graph_frame1 .graph_frame2_text{
+    visibility: visible;    font-size: 2.6vw;
+}
+
+
+
 }
