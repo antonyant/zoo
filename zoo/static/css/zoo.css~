@@ -432,7 +432,7 @@ all and (max-width: 720px)
 
 .truck_silo {
 	width: 30%;	
-	margin: -39% 10px 0px 0px;
+	margin: -37% 10px 0px 0px;
 	position: relative;
 	z-index: 1;
 	background-repeat:no-repeat;

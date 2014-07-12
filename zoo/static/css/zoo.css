@@ -398,7 +398,7 @@ body, html, .page {
 only screen and (-o-min-device-pixel-ratio: 2/1), 
 only screen and (-webkit-min-device-pixel-ratio: 3), 
 only screen and (min-device-pixel-ratio: 3),
-all and (max-width: 720px) 
+screen and (max-width: 720px) 
 {
 
 
