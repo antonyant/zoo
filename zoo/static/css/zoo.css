@@ -394,11 +394,10 @@ body, html, .page {
 
 /*screen detect pixel ratio 3 FHD Smart phones*/
 
-@media only screen (-moz-min-device-pixel-ratio: 3), 
-only screen and (-o-min-device-pixel-ratio: 2/1), 
-only screen and (-webkit-min-device-pixel-ratio: 3), 
-only screen and (min-device-pixel-ratio: 3),
-screen and (max-width: 720px) 
+@media 
+only screen 
+and (min-device-width : 320px)
+and (max-device-width : 480px)
 {
 
 
