@@ -121,9 +121,7 @@
         return res;
       };
     }
-  </script>
 
-<script type="text/javascript">
 $("a[href*='" + location.pathname + "']").addClass("current");
 </script>
 
