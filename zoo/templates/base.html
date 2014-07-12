@@ -26,6 +26,38 @@
     {% block extra_css %}{% endblock extra_css %}
 </head>
 <body>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+  <script src="{% static 'js/tokenizer.js' %}"></script>
+  <script src="{% static 'js/parser.js' %}"></script>
+  <script src="{% static 'js/vminpoly.js' %}"></script>
+
+  <script type="text/javascript">
+    if (!Array.prototype.filter)
+    {
+      Array.prototype.filter = function(fun /*, thisp*/)
+      {
+        var len = this.length;
+        if (typeof fun != "function")
+          throw new TypeError();
+
+        var res = new Array();
+        var thisp = arguments[1];
+        for (var i = 0; i < len; i++)
+        {
+          if (i in this)
+          {
+            var val = this[i]; // in case fun mutates this
+            if (fun.call(thisp, val, i, this))
+              res.push(val);
+          }
+        }
+
+        return res;
+      };
+    }
+  </script>
+
   <div class="page">
 
     <div class="header_row">
@@ -91,38 +123,6 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
-
-  <script src="{% static 'js/tokenizer.js' %}"></script>
-  <script src="{% static 'js/parser.js' %}"></script>
-  <script src="{% static 'js/vminpoly.js' %}"></script>
-
-  <script type="text/javascript">
-    if (!Array.prototype.filter)
-    {
-      Array.prototype.filter = function(fun /*, thisp*/)
-      {
-        var len = this.length;
-        if (typeof fun != "function")
-          throw new TypeError();
-
-        var res = new Array();
-        var thisp = arguments[1];
-        for (var i = 0; i < len; i++)
-        {
-          if (i in this)
-          {
-            var val = this[i]; // in case fun mutates this
-            if (fun.call(thisp, val, i, this))
-              res.push(val);
-          }
-        }
-
-        return res;
-      };
-    }
-  </script>
-
 <script type="text/javascript">
 $("a[href*='" + location.pathname + "']").addClass("current");
 </script>
