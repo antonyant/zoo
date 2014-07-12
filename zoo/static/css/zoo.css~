@@ -17,6 +17,7 @@ body {
     background-image: none;
     background-color:#231f20;
     font-family: 'Chivo', sans-serif;
+    font-size: 62.5%;
     text-decoration: none;
 }
 
@@ -199,7 +200,7 @@ body, html, .page {
     width:18.0%;
     height:auto;    
     font-family: 'Chivo', sans-serif;   
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .content_block{
@@ -207,7 +208,7 @@ body, html, .page {
     height:auto;
     padding: 2% 1% 1% 1%;
     border: 1.1em #231f20 solid;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .header {
@@ -284,9 +285,7 @@ body, html, .page {
 .menu_item {
     font-family: 'Chivo', sans-serif;
     text-decoration: none;
-    font-size: 1.1em;    /* old */
-    font-size: 1.1vw;   /* IE9 */
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
@@ -394,10 +393,11 @@ body, html, .page {
 
 /*screen detect pixel ratio 3 FHD Smart phones*/
 
-@media 
-only screen 
-and (min-device-width : 320px)
-and (max-device-width : 480px)
+@media only screen (-moz-min-device-pixel-ratio: 3), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (-webkit-min-device-pixel-ratio: 3), 
+only screen and (min-device-pixel-ratio: 3),
+screen and (max-width: 720px) 
 {
 
 
