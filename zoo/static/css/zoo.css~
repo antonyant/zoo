@@ -312,12 +312,12 @@ body, html, .page {
 /* End main Content*/
 
 .truck_silo {
-	width: 60%;	
-	margin: -20% 0px 0px 0px;
+	width: 60%;height: 19vw;	
+	margin: -25% 0px 0px 0px;
 	position: relative;
 	z-index: 1;
         background-image: url(../img/truck_silo.svg);
-        background-size: 100%;
+        background-size: contain;
 	background-repeat:no-repeat;
 	background-color:none;
 	float:right;
@@ -329,8 +329,6 @@ body, html, .page {
         text-align:center;
 	padding: 0px 0px 100px 0px;	
 	margin: 0px auto 0px auto;
-    font-size: .8em;    /* old */
-    font-size: 1vw;   /* IE9 */
     font-size: 1vw;
     font-family: 'Chivo', sans-serif;   
     clear:both;
@@ -407,7 +405,7 @@ only screen and (-webkit-min-device-pixel-ratio : 1.3),
 only screen and (min-device-pixel-ratio : 1.3),
 only screen and (-webkit-min-device-pixel-ratio : 2),
 only screen and (min-device-pixel-ratio : 2),
-all and (max-device-width : 768px)
+all and (max-width : 768px)
 {
 
     .bg_left_top_block {
@@ -438,12 +436,12 @@ all and (max-device-width : 768px)
     }
 
     .truck_silo {
-    width: 30%;	
-    margin: -37% 10px 0px 0px;
+    width: 30%;height: 20vw; 	
+    margin: -38% 0px 0px 0px;
     position: relative;
     z-index: 1;
     background-image: url(../img/truck_silo.svg);
-    background-size: 100%;
+    background-size: contain;
     background-repeat:no-repeat;
     background-color:none;
     float:right;	
@@ -584,7 +582,9 @@ all and (max-device-width : 768px)
     }
 
     .truck_silo {
-    display:none;
+    width: 250px;height: 100px;	
+    background-image: url(../img/truck_silo_tiny.png);
+    margin: -25% 0px 0px 0px;
     }
 
      .page {
