@@ -556,6 +556,12 @@ all and (max-width : 768px)
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
 
+    .bg_left_top_block {    height: 75px; 
+    }
+
+    .bg_right_top_block {    height: 75px; 
+    }
+
     .header_row {
     height: 75px;     border: 1px yellow solid;
     }
@@ -587,7 +593,12 @@ all and (max-width : 768px)
     }
 
     .truck_silo {
- display:none;
+    width: 100px;height: 75px; 	
+    margin: -38% 0px 0px 0px;
+    position: relative;
+    z-index: 1;
+    float:right;
+    background-image: url(../img/truck_silo_tiny.png);
     }
 
      .page {
