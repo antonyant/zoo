@@ -582,9 +582,12 @@ all and (max-width : 768px)
     }
 
     .truck_silo {
-    width: 250px;height: 100px;	
+    width: 100px;height: 75px; 	
+    margin: -38% 0px 0px 0px;
+    position: relative;
+    z-index: 1;
+    float:right;
     background-image: url(../img/truck_silo_tiny.png);
-    margin: -25% 0px 0px 0px;
     }
 
      .page {
