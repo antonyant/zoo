@@ -1,0 +1,683 @@
+a,abbr,acronym,address,applet,b,big,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,html,i,iframe,img,input,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,textarea,tfoot,th,thead,tr,tt,u,ul,var
+{margin:0;padding:0;border:0;outline:0;font-size:100%;background:transparent;}ol,ul{list-style: none;}
+ 
+@font-face {
+    font-family: 'chivoblack';
+    src: url('../fonts/chivo-black-webfont.eot');
+    src: url('../fonts/chivo-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chivo-black-webfont.woff') format('woff'),
+         url('../fonts/chivo-black-webfont.ttf') format('truetype'),
+         url('../fonts/chivo-black-webfont.svg#chivoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: none;
+    background-color:#231f20;
+    font-family: 'Chivo', sans-serif;
+    text-decoration: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h2 {
+    color:#82bfeb;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 1.4vw;
+}
+
+h3 {
+    color:#82bfeb;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+hr {
+    color:#ccc;
+}
+ 
+/*
+
+*/
+
+body, html, .page {
+     height: 100%;
+ }
+
+.page {
+     margin: 0 auto;
+     width: 85%;
+     margin-bottom: 100px;
+
+}
+
+/* End row setup */
+
+/* Start column grid setup */
+.col {     
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+    margin-bottom: 0px;
+}
+/* End column grid setup */
+
+/* Start row setup */       
+.header_row {
+    height: 25vw; 
+    margin-left:0;      
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;  
+}
+    /* Safari only override */
+.header_row {[;
+    height: 40%; 
+    margin-left:0;  
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;    
+
+    ];}
+
+.content_row {
+    height:25vw;
+    margin-left:0; 
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;      
+
+}
+
+    /* Safari only override */
+.content_row {[;
+    height:100%;
+    margin-left:0; 
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;     
+
+    ];}
+
+.footer_row {
+    margin-left:0; 
+    background-image: url(../img/safari_plug.png);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-color: white;  
+ 
+}
+
+/* End row setup */
+
+/*Enable for screen detect */
+
+    @media screen and (min-width: 320px) {}
+        
+.col {
+    margin-left:0%;
+    padding:0 0%;
+}
+        
+.row .col:first-child {
+    margin-left:0;
+}
+
+/* Start fluid containers*/
+.bg_menu_block,
+.bg_content_block {
+    width:8.0%;
+}
+
+.bg_menu_block {
+    width:4.0%;
+    height:100%;	
+    background-image: url(../img/grunge_menu_left.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.bg_content_block {
+    width:4.0%;
+    height:100%;	
+    background-image: url(../img/grunge_content_right.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.bg_left_top_block {
+    width:7.0%;
+    height:100%;	
+    background-image: url(../img/grunge_bg_left.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.bg_left_top_block {[;
+    width:7.0%;
+    height:100%;	
+    background-image: url(../img/grunge_bg_left.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    ];}
+
+.bg_right_top_block {
+    width:7.0%;
+    height:100%;	
+    background-image: url(../img/grunge_bg_right.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.bg_left_bot_block {
+    width:7.0%;
+    height:100%;	
+    background-image: url(../img/grunge_bg_left_bot.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.bg_right_bot_block {
+    width:7.0%;
+    height:100%;	
+    background-image: url(../img/grunge_bg_right_bot.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.menu_block {
+    width:18.0%;
+    height:auto;    
+    font-family: 'Chivo', sans-serif;   
+    font-size: 1vw;
+}
+
+.content_block{
+    width:60.0%;
+    height:auto;
+    padding: 2% 1% 1% 1%;
+    border: 1.1em #231f20 solid;
+    font-size: 1vw;
+}
+
+.header {
+    width:86.0%;
+    height:25vw;
+    background-image: url(../img/011_logo.jpg);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:contain; 
+    -ms-behavior: url(../js/backgroundsize.min.htc);
+}
+
+.footer {
+    width:100%;
+    height: 12vw;
+    margin-left:0;
+    background-image: url(../img/footer_wave.jpg);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:contain;  
+    clear:both;
+
+}
+/* End fluid containers*/
+
+.news {
+    box-sizing:border-box;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 6% 6% 6% 6%;
+    width: auto;
+    height: auto;
+    border: 1.1em #231f20 solid;
+}
+
+.news p{
+    font-family: 'Chivo', sans-serif; 
+    font-size: .8em;    /* old */
+    font-size: .8vw;   /* IE9 */
+    font-size: .8vw;
+}
+
+/* Start Navigation*/
+.menu {
+    margin-right: 5%;
+    width: auto;
+    height: auto;
+    padding: 5% 1% 5% 5%;
+    border: 1.1em #231f20 solid;    
+    box-sizing:border-box;
+}
+
+.menu a:link, a:visited {
+    color:#231f20;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color:#7fc9fd;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.menu_item {
+    font-family: 'chivoblack';
+    text-decoration: none;
+    font-size: 1.1em;    /* old */
+    font-size: 1.1vw;   /* IE9 */
+    font-size: 1.1vw;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+/* End Navigation*/
+
+/* Start main Content - The main content holder is in the fluid containers section class=content_block */
+.content a:link {
+	color:#727173;;
+	text-decoration: none;
+}
+
+.content a:visited{
+	color:#727173;
+	text-decoration: none;
+}
+
+.content a:hover{
+	color:#8b8d90;
+}
+/* End main Content*/
+
+.truck_silo {
+	width: 60%;height: 19vw;	
+	margin: -25% 0px 0px 0px;
+	position: relative;
+	z-index: 1;
+        background-image: url(../img/truck_silo.svg);
+        background-size: contain;
+	background-repeat:no-repeat;
+	background-color:none;
+	float:right;
+}
+
+/*Start footer - The footer container is in the fluid containers section class=footer*/
+.footer_text {
+	width: 100%;
+        text-align:center;
+	padding: 0px 0px 100px 0px;	
+	margin: 0px auto 0px auto;
+    font-size: 1vw;
+    font-family: 'Chivo', sans-serif;   
+    clear:both;
+}
+/*End footer*/
+
+.truck_img {
+	width: 20%;
+	height: 20%;
+	border: 1.1em #231f20 solid;	
+	background-image: none;
+	background-repeat:no-repeat;
+	background: #f4f0de;
+	border-radius: 7px 7px;
+
+}
+
+/*Start video containers*/
+.vid_thumb {
+	width: 65%;
+	margin: 0px auto 5% auto;
+	padding: 0px 0px 0px 0px;
+	border: 13px #231f20 solid;	
+	background-image: none;
+	background-repeat:no-repeat;
+	background: #f4f0de;
+	border-radius: 7px 7px;
+}
+
+.vid_text {	
+	width: 75%;
+	margin: 0px auto 1% auto;
+    font-size: .8em;    /* old */
+    font-size: 1.6vm;   /* IE9 */
+    font-size: 1.6vmin;
+    font-family: 'Chivo', sans-serif;
+}
+
+.player {
+	width: 80%;
+	height: 40vh;
+	margin: 0px auto 10% auto;
+}
+/*End video containers*/
+
+/*Start fancy button fade*/
+.fade {
+	-webkit-transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+	-o-transition: 2s ease-in-out;
+	transition: 2s ease-in-out;
+
+}
+
+.fade a:link, a:visited {
+	color:#231f20;
+	text-decoration: none;
+}
+
+.fade a:hover {
+	opacity: 0.5;
+}
+/*End fancy button fade*/
+
+/*start screen detect pixel ratio 3 FHD Smart phones ----------- */
+
+@media only screen (-moz-min-device-pixel-ratio: 3), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (-webkit-min-device-pixel-ratio: 3), 
+only screen and (min-device-pixel-ratio: 3),    
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5)
+only screen and (-webkit-min-device-pixel-ratio : 1.3),
+only screen and (min-device-pixel-ratio : 1.3),
+only screen and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min-device-pixel-ratio : 2),
+all and (max-width : 768px)
+{
+
+    .bg_left_top_block {
+    }
+
+    .bg_right_top_block {
+    }
+
+    .bg_menu_block,
+    .bg_content_block {
+    display:none;
+    }
+
+    .bg_menu_block {
+    display:none;
+    }
+
+    .bg_left_bot_block {
+    display:none;
+    }
+
+    .bg_right_bot_block {
+    display:none;
+    }
+
+    .news {
+    display:none;
+    }
+
+    .truck_silo {
+    width: 30%;height: 20vw; 	
+    margin: -38% 0px 0px 0px;
+    position: relative;
+    z-index: 1;
+    background-image: url(../img/truck_silo.svg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-color:none;
+    float:right;	
+    }
+
+     .page {
+     margin: 0 auto;
+     width: 100%;
+     margin-bottom: 100px;
+     }
+
+    .content_block{
+    width:100%;
+    height:auto;
+    padding: 4% 3% 3% 3%;
+    font-size: 3vw;
+    border: none;
+    }
+
+    .menu_block { 
+    width:100%;
+    height:auto;    
+    font-family: 'Chivo', sans-serif;   
+    padding: 0% 0% 0% 9%;
+    background-color: transparent;
+    border: 1.6em #231f20 solid;
+    clear:both;
+    }
+
+    .menu_item {   
+    width:33%; 
+    text-align:left;
+    font-size: 2.4vw;
+    float:left;      
+    padding: 1% 0% 1% 0%;
+    }
+
+    .menu {
+    margin: 0% auto;    
+    width: 100%;
+    height: auto;
+    padding: 0% 0% 0% 0%;
+    border: none;    
+    box-sizing:border-box;
+    background-color: transparent;
+    }
+
+    .menu a:hover {
+    color:#231f20;
+    text-decoration: none;
+    }
+
+    .menu_item a.current {
+    color:#82bfeb;
+    }
+
+    h2 {
+    color:#82bfeb;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 3.5vw;
+    }
+
+    h3 {
+    color:#82bfeb;
+    text-decoration: none;
+    font-size: 3vw;
+    }
+
+    .header_row {
+    height: 29vw;  
+    }
+
+    /* Safari only override */
+    .header_row {[;
+    height: 40%; 
+    ];}
+
+    .content_row {
+    background-image: none;     
+    }
+
+    /* Safari only override */
+    .content_row {[;
+    background-image: none;
+    ];}
+
+    .footer_row {
+    background-image: none;     
+    }
+
+    /* Safari only override */
+    .footer_row {[;
+    background-image: none;
+    ];}
+
+    .footer_text {
+    font-size: 1.9vw; 
+    }
+
+    .footer {
+    height: 18vw;
+    }
+
+}
+
+/* end screen detect pixel ratio 3 FHD Smart phones ----------- */
+
+/* start old Smartphones (portrait and landscape) ----------- */
+
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-width : 480px) {
+
+    .header_row { height: 6em;
+    }
+
+    .header {
+    background-image: url(../img/011_logo_tiny.jpg);
+    height: 5em;
+    }
+
+    .bg_menu_block,
+    .bg_content_block {
+    display:none;
+    }
+
+    .bg_menu_block {
+    display:none;
+    }
+
+    .bg_left_bot_block {
+    display:none;
+    }
+
+    .bg_right_bot_block {
+    display:none;
+    }
+
+    .news {
+    display:none;
+    }
+
+    .truck_silo { 
+    display:none;
+    }
+
+     .page {
+     margin: 0 auto;
+     width: 100%;
+     margin-bottom: 100px;
+     }
+
+    .content_block{
+    width:100%;
+    height:auto;
+    padding: 4% 3% 3% 3%;
+    font-size: 18px;
+    border: none;
+    }
+
+    .menu_block { 
+    width:100%;
+    height:auto;    
+    font-family: 'Chivo', sans-serif;   
+    padding: 0% 0% 0% 3%;
+    background-color: transparent;
+    border: 9px #231f20 solid;
+    clear:both;
+    }
+
+    .menu_item {   
+    width:33%; 
+    text-align:left;
+    font-size: 10px;
+    float:left;      padding: 1% 0% 1% 0%;
+    }
+
+    .menu {
+    margin: 0% auto;    
+    width: 100%;
+    height: auto;
+    padding: 0% 0% 0% 0%;
+    border: none;    
+    box-sizing:border-box;
+    background-color: transparent;
+    }
+
+    .menu a:hover {
+    color:#231f20;
+    text-decoration: none;
+    }
+
+    .menu_item a.current {
+    color:#82bfeb;
+    }
+
+    h2 {
+    color:#82bfeb;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 20px;
+    }
+
+    h3 {
+    color:#82bfeb;
+    text-decoration: none;
+    font-size: 19px;
+    }
+
+    .content_row {
+    background-image: none;     
+    }
+
+    /* Safari only override */
+    .content_row {[;
+    background-image: none;
+    ];}
+
+    .footer_row {
+    background-image: none;     
+    }
+
+    /* Safari only override */
+    .footer_row {[;
+    background-image: none;
+    ];}
+
+    .footer_text {
+    font-size: 9px; 
+    }
+
+    .footer {
+    height: 60px;    
+    background-image: url(../img/footer_wave_tiny.jpg);
+    }
+
+}
+
+/* end old Smartphones (portrait and landscape) ----------- */
+
+
+
+
+
+
