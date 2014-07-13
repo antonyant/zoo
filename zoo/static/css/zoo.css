@@ -577,7 +577,8 @@ width:33%; text-align:left;
     }
 
 .truck_silo {
-	width: 30%;	
+	width: auto;
+	height: 50px;	
 	margin: -37% 10px 0px 0px;
         background-image: url(../img/truck_silo_tiny.png);
 	background-color:none;
@@ -648,7 +649,7 @@ width:33%; text-align:left;
     }
 
 .header_row {
-    height: 29vw;  
+    height: 100px;  
 }
     /* Safari only override */
 .header_row {[;
@@ -676,11 +677,11 @@ width:33%; text-align:left;
     ];}
 
 .footer_text {
-    font-size: 1.6vw; 
+    font-size: 10px; 
 }
 
 .footer {
-    height: 18vw;    background-image: url(../img/footer_wave.jpg);
+    height: 30px;    background-image: url(../img/footer_wave_tiny.jpg);
 }
 
 }
