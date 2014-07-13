@@ -598,7 +598,7 @@ width:33%; text-align:left;
     width:100%;
     height:auto;
     padding: 4% 3% 3% 3%;
-    font-size: 3.2vw;
+    font-size: 18px;
     border: none;
     }
 
@@ -608,13 +608,13 @@ width:33%; text-align:left;
     font-family: 'Chivo', sans-serif;   
     padding: 0% 0% 0% 3%;
     background-color: transparent;
-    border: .9em #231f20 solid;
+    border: 5px #231f20 solid;
     clear:both;
     }
 
     .menu_item {   
 width:33%; text-align:left;
-    font-size: 2.1vw;
+    font-size: 19px;
     float:left;      padding: 1% 0% 1% 0%;
     }
 
@@ -641,13 +641,13 @@ width:33%; text-align:left;
     color:#82bfeb;
     text-decoration: none;
     text-transform:uppercase;
-    font-size: 3.3vw;
+    font-size: 20px;
     }
 
     h3 {
     color:#82bfeb;
     text-decoration: none;
-    font-size: 3.1vw;
+    font-size: 19px;
     }
 
 .header_row {
