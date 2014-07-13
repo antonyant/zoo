@@ -604,13 +604,13 @@ width:33%; text-align:left;
     font-family: 'Chivo', sans-serif;   
     padding: 0% 0% 0% 9%;
     background-color: transparent;
-    border: 1.6em #231f20 solid;
+    border: 1em #231f20 solid;
     clear:both;
     }
 
     .menu_item {   
 width:33%; text-align:left;
-    font-size: 2vw;
+    font-size: 2.2vw;
     float:left;      padding: 1% 0% 1% 0%;
     }
 
