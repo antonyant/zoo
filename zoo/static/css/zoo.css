@@ -18,6 +18,7 @@ body {
     background-color:#231f20;
     font-family: 'Chivo', sans-serif;
     text-decoration: none;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h2 {

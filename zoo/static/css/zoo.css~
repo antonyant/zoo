@@ -560,7 +560,8 @@ all and (max-width : 768px)
     }
 
     .header {
-    background-image: url(../img/011_logo_tiny.jpg);height: 5em;
+    background-image: url(../img/011_logo_tiny.jpg);
+    height: 5em;
     }
 
     .bg_menu_block,
