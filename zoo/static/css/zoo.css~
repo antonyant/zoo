@@ -554,10 +554,9 @@ all and (max-width : 768px)
 
     @media only screen
     and (min-device-width : 320px)
-    and (max-device-width : 480px) {
+    and (max-width : 480px) {
 
-    .header_row {
-    height: 30%; 
+    .header_row { 
     }
 
     .header {
@@ -585,9 +584,9 @@ all and (max-width : 768px)
     display:none;
     }
 
-    .truck_silo {
-    width: 10%;height: 3%; 	
-    margin: -38% 0px 0px 0px;
+    .truck_silo {    border: 1px red solid; 
+    width: 98px;height: 68px; 	
+    margin: -34% 0px 0px 0px;
     position: relative;
     z-index: 1;
     float:right;
