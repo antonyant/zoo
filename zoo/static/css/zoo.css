@@ -580,7 +580,7 @@ width:33%; text-align:left;
 	width: auto;
 	height: 50px;	
 	margin: -37% 10px 0px 0px;
-        background-image: url(../img/truck_silo_tiny.png);
+        background-image: url(../img/truck_silo_tiny.jpg);
 	background-color:none;
 	float:right;	
 }
@@ -612,7 +612,7 @@ width:33%; text-align:left;
     .menu_item {   
     width:33%; 
     text-align:left;
-    font-size: 13px;
+    font-size: 12px;
     float:left;      padding: 1% 0% 1% 0%;
     }
 
@@ -649,7 +649,7 @@ width:33%; text-align:left;
     }
 
 .header_row {
-    height: 100px;  
+    height: 90px;  
 }
     /* Safari only override */
 .header_row {[;
@@ -681,7 +681,7 @@ width:33%; text-align:left;
 }
 
 .footer {
-    height: 30px;    background-image: url(../img/footer_wave_tiny.jpg);
+    height: 40px;    background-image: url(../img/footer_wave_tiny.jpg);
 }
 
 }
