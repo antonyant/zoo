@@ -577,12 +577,7 @@ width:33%; text-align:left;
     }
 
 .truck_silo {
-	width: auto;
-	height: 50px;	
-	margin: -37% 10px 0px 0px;
-        background-image: url(../img/truck_silo_tiny.jpg);
-	background-color:none;
-	float:right;	
+    display:none;
 }
 
      .page {
@@ -605,14 +600,14 @@ width:33%; text-align:left;
     font-family: 'Chivo', sans-serif;   
     padding: 0% 0% 0% 3%;
     background-color: transparent;
-    border: 10px #231f20 solid;
+    border: 9px #231f20 solid;
     clear:both;
     }
 
     .menu_item {   
     width:33%; 
     text-align:left;
-    font-size: 12px;
+    font-size: 10px;
     float:left;      padding: 1% 0% 1% 0%;
     }
 
@@ -677,11 +672,11 @@ width:33%; text-align:left;
     ];}
 
 .footer_text {
-    font-size: 10px; 
+    font-size: 9px; 
 }
 
 .footer {
-    height: 40px;    background-image: url(../img/footer_wave_tiny.jpg);
+    height: 60px;    background-image: url(../img/footer_wave_tiny.jpg);
 }
 
 }
