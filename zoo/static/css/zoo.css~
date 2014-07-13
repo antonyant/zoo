@@ -556,12 +556,6 @@ all and (max-width : 768px)
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
 
-    .bg_left_top_block {    height: 75px; 
-    }
-
-    .bg_right_top_block {    height: 75px; 
-    }
-
     .header_row {
     height: 75px;     border: 1px yellow solid;
     }
@@ -663,15 +657,6 @@ all and (max-width : 768px)
     text-decoration: none;
     font-size: 19px;
     }
-
-    .header_row {
-    height: 90px;  
-    }
-
-    /* Safari only override */
-    .header_row {[;
-    height: 40%; 
-    ];}
 
     .content_row {
     background-image: none;     
