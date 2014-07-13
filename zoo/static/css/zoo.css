@@ -557,11 +557,11 @@ all and (max-width : 768px)
     and (max-device-width : 480px) {
 
     .header_row {
-    height: 75px; 
+    height: 75px;     border: 1px yellow solid;
     }
 
     .header {
-    background-image: url(../img/011_logo_tiny.jpg);
+    background-image: url(../img/011_logo_tiny.jpg);     border: 1px red solid;
     height: 75px;
     }
 
