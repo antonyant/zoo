@@ -556,6 +556,10 @@ all and (max-width : 768px)
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
 
+    .header_row {
+    height: 150px; 
+    }
+
     .header {
     background-image: url(../img/011_logo_tiny.jpg);
     }
