@@ -683,7 +683,7 @@ width:33%; text-align:left;
 }
 
 .footer {
-    height: 18vw;
+    height: 18vw;    background-image: url(../img/footer_wave_tiny.jpg);
 }
 
 }
