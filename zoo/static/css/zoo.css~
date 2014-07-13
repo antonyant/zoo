@@ -560,7 +560,7 @@ all and (max-width : 768px)
     }
 
     .header {
-    background-image: url(../img/011_logo_tiny.jpg);
+    background-image: url(../img/011_logo_tiny.jpg);height: 100px;
     }
 
     .bg_menu_block,
@@ -584,9 +584,9 @@ all and (max-width : 768px)
     display:none;
     }
 
-    .truck_silo {    border: 1px red solid; 
+    .truck_silo { 
     width: 98px;height: 68px; 	
-    margin: -34% 0px 0px 0px;
+    margin: -120px 0px 0px 0px;
     position: relative;
     z-index: 1;
     float:right;
