@@ -282,11 +282,12 @@ body, html, .page {
 }
 
 .menu_item {
-    font-family: 'Chivo', sans-serif;
+    font-family: 'chivoblack';
     text-decoration: none;
     font-size: 1.1em;    /* old */
     font-size: 1.1vw;   /* IE9 */
     font-size: 1.1vw;
+    -webkit-font-smoothing: antialiased;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
@@ -539,7 +540,147 @@ width:33%; text-align:left;
 }
 /*end zoo.css*/
 
+}
 
+/* old Smartphones (portrait and landscape) ----------- */
+
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+    .bg_left_top_block {
+    }
+
+    .bg_right_top_block {
+    }
+
+    .bg_menu_block,
+    .bg_content_block {
+    display:none;
+    }
+
+    .bg_menu_block {
+    display:none;
+    }
+
+    .bg_left_bot_block {
+    display:none;
+    }
+
+    .bg_right_bot_block {
+    display:none;
+    }
+
+    .news {
+    display:none;
+    }
+
+.truck_silo {
+	width: 30%;	
+	margin: -37% 10px 0px 0px;
+	position: relative;
+	z-index: 1;
+	background-repeat:no-repeat;
+	background-color:none;
+	float:right;	
+}
+
+     .page {
+     margin: 0 auto;
+     width: 100%;
+     margin-bottom: 100px;
+     }
+
+    .content_block{
+    width:100%;
+    height:auto;
+    padding: 4% 3% 3% 3%;
+    font-size: 3vw;
+    border: none;
+    }
+
+    .menu_block { 
+    width:100%;
+    height:auto;    
+    font-family: 'Chivo', sans-serif;   
+    padding: 0% 0% 0% 9%;
+    background-color: transparent;
+    border: 1.6em #231f20 solid;
+    clear:both;
+    }
+
+    .menu_item {   
+width:33%; text-align:left;
+    font-size: 2vw;
+    float:left;      padding: 1% 0% 1% 0%;
+    }
+
+    .menu {
+    margin: 0% auto;    
+    width: 100%;
+    height: auto;
+    padding: 0% 0% 0% 0%;
+    border: none;    
+    box-sizing:border-box;
+    background-color: transparent;
+    }
+
+.menu a:hover {
+    color:#231f20;
+    text-decoration: none;
+}
+
+.menu_item a.current {
+    color:#82bfeb;
+}
+
+    h2 {
+    color:#82bfeb;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 3.5vw;
+    }
+
+    h3 {
+    color:#82bfeb;
+    text-decoration: none;
+    font-size: 3vw;
+    }
+
+.header_row {
+    height: 29vw;  
+}
+    /* Safari only override */
+.header_row {[;
+    height: 40%; 
+    ];}
+
+.content_row {
+    background-image: none;     
+
+}
+
+    /* Safari only override */
+.content_row {[;
+    background-image: none;
+    ];}
+
+.footer_row {
+    background-image: none;     
+
+}
+
+    /* Safari only override */
+.footer_row {[;
+    background-image: none;
+    ];}
+
+.footer_text {
+    font-size: 1.9vw; 
+}
+
+.footer {
+    height: 18vw;
+}
 
 }
 
