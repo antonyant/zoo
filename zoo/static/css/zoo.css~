@@ -232,7 +232,7 @@ body, html, .page {
     width:100%;
     height: 12vw;
     margin-left:0;
-    background-image: url(../img/footer_wave.jpg), none;
+    background-image: url(../img/footer_wave.jpg);
     background-repeat:no-repeat;
     background-position:center top;
     background-size:contain;  
@@ -316,9 +316,11 @@ body, html, .page {
 	margin: -20% 0px 0px 0px;
 	position: relative;
 	z-index: 1;
+        background-image: url(../img/truck_silo.svg);
+        background-size: 100%;
 	background-repeat:no-repeat;
 	background-color:none;
-	float:right;	
+	float:right;
 }
 
 /*Start footer - The footer container is in the fluid containers section class=footer*/
@@ -436,6 +438,8 @@ screen and (max-width: 720px)
 	margin: -37% 10px 0px 0px;
 	position: relative;
 	z-index: 1;
+        background-image: url(../img/truck_silo.svg);
+        background-size: 100%;
 	background-repeat:no-repeat;
 	background-color:none;
 	float:right;	
@@ -547,12 +551,10 @@ width:33%; text-align:left;
     @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
-    .bg_left_top_block {
-    }
 
-    .bg_right_top_block {
-    }
-
+.header {
+    background-image: url(../img/011_logo_tiny.jpg);
+}
     .bg_menu_block,
     .bg_content_block {
     display:none;
@@ -579,6 +581,8 @@ width:33%; text-align:left;
 	margin: -37% 10px 0px 0px;
 	position: relative;
 	z-index: 1;
+        background-image: url(../img/truck_silo_tiny.png);
+        background-size: 100%;
 	background-repeat:no-repeat;
 	background-color:none;
 	float:right;	
@@ -594,7 +598,7 @@ width:33%; text-align:left;
     width:100%;
     height:auto;
     padding: 4% 3% 3% 3%;
-    font-size: 3vw;
+    font-size: 3.2vw;
     border: none;
     }
 
@@ -602,15 +606,15 @@ width:33%; text-align:left;
     width:100%;
     height:auto;    
     font-family: 'Chivo', sans-serif;   
-    padding: 0% 0% 0% 9%;
+    padding: 0% 0% 0% 3%;
     background-color: transparent;
-    border: 1em #231f20 solid;
+    border: .9em #231f20 solid;
     clear:both;
     }
 
     .menu_item {   
 width:33%; text-align:left;
-    font-size: 2.2vw;
+    font-size: 2.1vw;
     float:left;      padding: 1% 0% 1% 0%;
     }
 
@@ -637,13 +641,13 @@ width:33%; text-align:left;
     color:#82bfeb;
     text-decoration: none;
     text-transform:uppercase;
-    font-size: 3.5vw;
+    font-size: 3.3vw;
     }
 
     h3 {
     color:#82bfeb;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 3.1vw;
     }
 
 .header_row {
@@ -675,7 +679,7 @@ width:33%; text-align:left;
     ];}
 
 .footer_text {
-    font-size: 1.9vw; 
+    font-size: 1.6vw; 
 }
 
 .footer {
