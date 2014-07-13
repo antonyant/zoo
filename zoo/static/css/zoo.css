@@ -579,11 +579,7 @@ width:33%; text-align:left;
 .truck_silo {
 	width: 30%;	
 	margin: -37% 10px 0px 0px;
-	position: relative;
-	z-index: 1;
         background-image: url(../img/truck_silo_tiny.png);
-        background-size: 100%;
-	background-repeat:no-repeat;
 	background-color:none;
 	float:right;	
 }
@@ -613,7 +609,8 @@ width:33%; text-align:left;
     }
 
     .menu_item {   
-width:33%; text-align:left;
+    width:33%; 
+    text-align:left;
     font-size: 13px;
     float:left;      padding: 1% 0% 1% 0%;
     }
@@ -683,7 +680,7 @@ width:33%; text-align:left;
 }
 
 .footer {
-    height: 18vw;    background-image: url(../img/footer_wave_tiny.jpg);
+    height: 18vw;    background-image: url(../img/footer_wave.jpg);
 }
 
 }
