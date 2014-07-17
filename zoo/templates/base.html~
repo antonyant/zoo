@@ -90,7 +90,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>About</h1>
-                    <hr class="star-light">
+                    <hr>
                 </div>
             </div>
             <div class="row">
@@ -110,7 +110,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>Web</h1>
-                    <hr class="star-light">
+                    <hr>
                 </div>
             </div>
 
@@ -174,7 +174,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>Graph</h1>
-                    <hr class="star-light">
+                    <hr>
                 </div>
             </div>
             <div class="row">
@@ -224,7 +224,7 @@ Django is a high-level Python Web framework that encourages rapid development an
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>Mobile Dev</h1>
-                    <hr class="star-light">
+                    <hr">
                 </div>
             </div>
 <div class="row">
@@ -270,7 +270,7 @@ Django is a high-level Python Web framework that encourages rapid development an
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>Contact Us</h1>
-                    <hr class="star-light">
+                    <hr>
                 </div>
             </div>
             <div class="row">
@@ -363,10 +363,16 @@ Django is a high-level Python Web framework that encourages rapid development an
     <script src="{% static 'js/modernizr.js' %}"></script>
     <script>$(function () { $("[data-toggle='tooltip']").tooltip(); });</script>
     <script>
-if(!Modernizr.svg) {
-    $('img[src*="svg"]').attr('src', function() {
-        return $(this).attr('src').replace('.svg', '.png');
-    });
+if (!Modernizr.svg) {
+    var imgs = document.getElementsByTagName('img');
+    var svgExtension = /.*\.svg$/
+    var l = imgs.length;
+    for(var i = 0; i < l; i++) {
+        if(imgs[i].src.match(svgExtension)) {
+            imgs[i].src = imgs[i].src.slice(0, -3) + 'png';
+            console.log(imgs[i].src);
+        }
+    }
 }
     </script>
 
