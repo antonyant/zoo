@@ -168,8 +168,8 @@
             </div>
         </div>
     </section>
-   
-<section class="orange" id="graph">
+
+    <section class="orange" id="graph">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -178,46 +178,33 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Established in Canberra for the last 10 years.</p>
-<p>After years of working with many systems we believe Python and Django to be the very best technology currently available, for rapidly developing high-performing, elegant websites.
-</p>
+                <div class="col-lg-4 col-lg-offset-2 ">
+                    <p>After many years of working with many systems we believe Python and Django to be the very best technology currently available, for rapidly developing high-performing, elegant websites.</p>
+                    <p>Python is a high level, object-oriented programming language. </p>
                 </div>
                 <div class="col-lg-4">
-                   <p>
-Python is a high level, object-oriented programming language. 
-The elegant design and syntax rules of this programming language make it compact and readable even among multi programmer development teams.</p>
-<p>
-Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
-</p>
-</div>
+                   <p>The elegant design and syntax rules of this programming language make it compact and readable even among multi programmer development teams.</p>
+                   <p>Django is a Python Web framework that encourages rapid development and clean, pragmatic design.</p>
+                </div>
 
-                    <div class="col-lg-12 text-center">
-                        <p>Some of the organisations that choose to power their web applications with Django</p>
-                        <ul class="list-inline">
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-firefox"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download more information
-                    </a>
+                <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+                    <ul class="list-inline">
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="gimp raster graphics"><i><img src="{% static 'img/gimp.svg' %}"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="inscape vector graphics"><i><img src="{% static 'img/inkscape.svg' %}"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="scribus desktop publishing"><i><img src="{% static 'img/scribus.svg' %}"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="blender 3D graphics"><i><img src="{% static 'img/blender.svg' %}"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+                    <small>Using the finest open source graphics software</small>
                 </div>
             </div>
         </div>
     </section>
-
 
     <section class="blue" id="mobiledev">
         <div class="container">
@@ -248,18 +235,28 @@ Django is a high-level Python Web framework that encourages rapid development an
                 </div>
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                     <ul class="list-inline">
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="you tube" ><i class="fa fa-fw fa-youtube"></i></a>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="isuzu nps 4x4"><i class="fa fa-truck"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="540 watt solar cells"><i class="fa fa-fw fa-sun-o"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="bitbucket"><i class="fa fa-fw fa-bitbucket"></i></a>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="300lt fresh water"><i class="fa fa-fw fa-tint"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="pinterest"><i class="fa fa-fw fa-pinterest"></i></a>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="hot showers"><i class="fa fa-fw fa-umbrella"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="full kitchen"><i class="fa fa-fw fa-cutlery"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="4x 120AH AGM Batteries"><i class="fa fa-fw fa-bolt"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="lenovo development"><i class="fa fa-fw fa-laptop"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="go anywhere"><i class="fa fa-fw fa-globe"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="fun times" ><i class="fa fa-fw fa-smile-o"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
-                    <small>Check out of the places we have been</small>
+                    <small>Everything onboard for mobile development</small>
                 </div>
             </div>
         </div>
