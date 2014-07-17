@@ -117,10 +117,10 @@
             <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                 <ul class="list-inline">
                     <li>
-                        <a href="#" class="btn-logo"><i><img src="{% static 'img/python_logo.svg' %}" onerror="this.src={% static 'img/python_logo.png' %}"></i></a>
+                        <a href="#" class="btn-logo"><i><img src="{% static 'img/python_logo.svg' %}"></i></a>
                     </li>
                     <li>
-                        <a href="#" class="btn-logo"><i><img src="{% static 'img/django_logo.svg' %}" onerror="this.src={% static 'img/django_logo.png' %}"></i></a>
+                        <a href="#" class="btn-logo"><i><img src="{% static 'img/django_logo.svg' %}"></i></a>
                     </li>
                 </ul>
             </div>
@@ -145,15 +145,15 @@
                         </li>
                         <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="pinterest"><i class="fa fa-fw fa-pinterest"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="washington post"><i><img src="{% static 'img/washington_post_logo.svg' %}" onerror="this.src={% static 'img/washington_post_logo.png' %}"></i></a>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="washington post"><i><img src="{% static 'img/washington_post_logo.svg' %}"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="mozilla/firefox"><i><img src="{% static 'img/moz.svg' %}" onerror="this.src={% static 'img/moz.png' %}" ></i></a>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="mozilla/firefox"><i><img src="{% static 'img/moz.svg' %}"></i></a>
                         </li>
                         <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="discus"><i><img src="{% static 'img/discus.svg' %}"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="new york times"><i><img src="{% static 'img/nyt.svg' %}" onerror="this.src={% static 'img/nyt.png' %}"></i></a>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="new york times"><i><img src="{% static 'img/nyt.svg' %}"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="the guardian"><i><img src="{% static 'img/guardian.svg' %}" onerror="this.src={% static 'img/guardian.png' %}"></i></a>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="the guardian"><i><img src="{% static 'img/guardian.svg' %}"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -229,7 +229,7 @@ Django is a high-level Python Web framework that encourages rapid development an
             </div>
 <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive btn-truck" src="{% static 'img/truck_silo_white.svg' %}" onerror="this.src={% static 'img/truck_silo_white.png' %}">
+                <img class="img-responsive btn-truck" src="{% static 'img/truck_silo_white.svg' %}">
             </div>
  </div>
             <div class="row">
@@ -360,7 +360,16 @@ Django is a high-level Python Web framework that encourages rapid development an
     <script src="{% static 'js/classie.js' %}"></script>
     <script src="{% static 'js/cbpAnimatedHeader.js' %}"></script>
     <script src="{% static 'js/zoo.js' %}"></script>
+    <script src="{% static 'js/modernizr.js' %}"></script>
     <script>$(function () { $("[data-toggle='tooltip']").tooltip(); });</script>
+    <script>
+if(!Modernizr.svg) {
+    $('img[src*="svg"]').attr('src', function() {
+        return $(this).attr('src').replace('.svg', '.png');
+    });
+}
+    </script>
+
 </body>
 
 </html>
