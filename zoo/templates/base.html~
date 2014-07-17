@@ -117,10 +117,10 @@
             <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                 <ul class="list-inline">
                     <li>
-                        <a href="#" class="btn-logo"><i><img src="{% static 'img/python_logo.svg' %}"></i></a>
+                        <div class="btn-logo"><i><img src="{% static 'img/python_logo.svg' %}"></i></div>
                     </li>
                     <li>
-                        <a href="#" class="btn-logo"><i><img src="{% static 'img/django_logo.svg' %}"></i></a>
+                        <div class="btn-logo"><i><img src="{% static 'img/django_logo.svg' %}"></i></div>
                     </li>
                 </ul>
             </div>
@@ -137,23 +137,23 @@
 
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                     <ul class="list-inline">
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="you tube" ><i class="fa fa-fw fa-youtube"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="you tube" ><i class="fa fa-fw fa-youtube"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="instagram"><i class="fa fa-fw fa-instagram"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="bitbucket"><i class="fa fa-fw fa-bitbucket"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="bitbucket"><i class="fa fa-fw fa-bitbucket"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="pinterest"><i class="fa fa-fw fa-pinterest"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="pinterest"><i class="fa fa-fw fa-pinterest"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="washington post"><i><img src="{% static 'img/washington_post_logo.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="washington post"><i><img src="{% static 'img/washington_post_logo.svg' %}"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="mozilla/firefox"><i><img src="{% static 'img/moz.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="mozilla/firefox"><i><img src="{% static 'img/moz.svg' %}"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="discus"><i><img src="{% static 'img/discus.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="discus"><i><img src="{% static 'img/discus.svg' %}"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="new york times"><i><img src="{% static 'img/nyt.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="new york times"><i><img src="{% static 'img/nyt.svg' %}"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="the guardian"><i><img src="{% static 'img/guardian.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="the guardian"><i><img src="{% static 'img/guardian.svg' %}"></i></div>
                         </li>
                     </ul>
                 </div>
@@ -162,7 +162,7 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download more information
+                        <i class="fa fa-download"></i> Download info
                     </a>
                 </div>
             </div>
@@ -189,13 +189,13 @@
 
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                     <ul class="list-inline">
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="gimp raster graphics"><i><img src="{% static 'img/gimp.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="gimp raster graphics"><i><img src="{% static 'img/gimp.svg' %}"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="inscape vector graphics"><i><img src="{% static 'img/inkscape.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="inscape vector graphics"><i><img src="{% static 'img/inkscape.svg' %}"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="scribus desktop publishing"><i><img src="{% static 'img/scribus.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="scribus desktop publishing"><i><img src="{% static 'img/scribus.svg' %}"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="blender 3D graphics"><i><img src="{% static 'img/blender.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="blender 3D graphics"><i><img src="{% static 'img/blender.svg' %}"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -222,36 +222,31 @@
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2 ">
                     <p>The ZeroOneOne mobile workstation is used for remote development, on-site meetings and generally having a good time It is really quite an awesome bit of gear.</p>
-                    <p>Here is a brief overview of the setup</p>
                     <p>Built on an Isuzu NPS 4x4 6.5 ton chassis its really strong and can get in to almost anywhere.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>540watts solar power for running dev machines</p>
-                    <p>300lt fresh water</p>
-                    <p>30lt hot water</p>
-                    <p>Stainless steel kitchen complete with oven/stove and 130lt fridge</p>
-                    <p>Shower</p>
-                    <p>Queen Size bed</p>
+                    <p>Mobile development at your favorite beach or deep in the jungle</p>
+                    <p>Blah, Balh Blah! Blah Bla, Blah.</p>
                 </div>
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                     <ul class="list-inline">
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="isuzu nps 4x4"><i class="fa fa-truck"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="isuzu nps 4x4"><i class="fa fa-truck"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="540 watt solar cells"><i class="fa fa-fw fa-sun-o"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="540 watt solar cells"><i class="fa fa-fw fa-sun-o"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="300lt fresh water"><i class="fa fa-fw fa-tint"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="300lt fresh water"><i class="fa fa-fw fa-tint"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="hot showers"><i class="fa fa-fw fa-umbrella"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="hot showers"><i class="fa fa-fw fa-umbrella"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="full kitchen"><i class="fa fa-fw fa-cutlery"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="full kitchen"><i class="fa fa-fw fa-cutlery"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="4x 120AH AGM Batteries"><i class="fa fa-fw fa-bolt"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="4x 120AH AGM Batteries"><i class="fa fa-fw fa-bolt"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="lenovo development"><i class="fa fa-fw fa-laptop"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="lenovo development"><i class="fa fa-fw fa-laptop"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="go anywhere"><i class="fa fa-fw fa-globe"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="go anywhere"><i class="fa fa-fw fa-globe"></i></div>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="fun times" ><i class="fa fa-fw fa-smile-o"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="fun times" ><i class="fa fa-fw fa-smile-o"></i></div>
                         </li>
                     </ul>
                 </div>
@@ -286,26 +281,15 @@ Django is a high-level Python Web framework that encourages rapid development an
 </div>
 
                     <div class="col-lg-12 text-center">
-                        <p>Some of the organisations that choose to power their web applications with Django</p>
                         <ul class="list-inline">
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                            <li><div class="btn-social btn-outline" data-toggle="tooltip" title="0433871421"><i class="fa fa-fw fa-phone"></i></div>
                             </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-firefox"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            <li><div class="btn-social btn-outline" data-toggle="tooltip" title="info@zerooneone.com.au"><i class="fa fa-fw  fa-envelope-square"></i></div>
                             </li>
                         </ul>
                     </div>
-
-                
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download more information
-                    </a>
+                <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+                    <small>Hover for details</small>
                 </div>
             </div>
         </div>
@@ -322,9 +306,9 @@ Django is a high-level Python Web framework that encourages rapid development an
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            <li><a href="#" class="btn-social btn-outline" ><i class="fa fa-fw fa-ubuntu"></i></a>
                             </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
                             </li>
                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
