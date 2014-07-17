@@ -2,107 +2,365 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+
     <meta charset="utf-8">
-    <title>Zero One One</title>
-    <meta name="description" content=" " /> 
-    <meta name="keywords" content="" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="viewport" content="width=device-width" />
+    <meta name="keywords" content="" />
+
     <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" /> 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-<script src="{% static 'js/html5shiv.js' %}"></script>
-<![endif]-->
-<!--[if lt IE 9]>
-    <link href="{% static 'css/ie.css' %}" rel="stylesheet">
-<![endif]-->
-    <!-- This file stores the projects specific CSS -->
+
+    <title>Zero One One - Digital Design</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
     <link href="{% static 'css/zoo.css' %}" rel="stylesheet">
-    <link href="{% static 'css/lightbox_gall.css' %}" rel="stylesheet" >
-    <link href="{% static 'css/birds.css' %}" rel="stylesheet" >
-    <link href="{% static 'css/web.css' %}" rel="stylesheet" >
-    <link href="{% static 'css/graph.css' %}" rel="stylesheet" >
-    <link href='http://fonts.googleapis.com/css?family=Chivo:900,900italic,400,400italic' rel='stylesheet' type='text/css'>
-    <!-- Use this to quickly test CSS changes in a template,
-        then move to zoo.css -->
-    {% block extra_css %}{% endblock extra_css %}
+
+    <!-- Fonts -->
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-  <div class="page">
 
-    <div class="header_row">
-      <div class="bg_left_top_block col"></div>
-      <div class="header col"></div>
-      <div class="bg_right_top_block col"></div>
-    </div>
-    <div class="content_row">
-      <div class="bg_left_bot_block col"></div>
-      <div class="bg_menu_block col"></div>
-      <div class="menu_block col">
-        <div class="menu"><b>
+<body id="page-top">
+
+<div id="grunge"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+ <div class="page-scroll">
+                            <a href="#page-top" class="btn btn-circle_sm">
+                                <i class="fa fa-angle-double-up animated"></i>
+                            </a>
+                        </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
 {% load tree_menu_tags %}
-{% show_menu "mainMenu" "unordered-list" %}</b>
+{% show_menu "mainMenu" "unordered-list" %}
+
+
+
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="news">
-          <h2>FEATURED</h2>
-          <hr></hr>
-          <h3>Website Process</h2>
-          <div class="fade">
-            <a href="/web_info/">
-              <img class="fade" width="90%" src="{% static 'img/tour_1.jpg' %}">
-              <p>Information regarding the process of building a new website</p>
-            </a>
-          </div>
-          <hr></hr>
-          <div class="fade">
-            <h3>Youtube</h2>
-            <a href="/videos/">
-              <img width="90%" src="{% static 'img/clapper.jpg' %}">
-              <p>A few vids from our youtube channel</p>
-            </a>
-          </div>
-          <hr></hr>
-          <p>&nbsp;</p>
-          <div class="fade">
-            <a href="">
-              <img width="90%" src="{% static 'img/python-logo-generic.svg' %}">
-            </a>
-          </div>
-          <p>&nbsp;</p>
-          <div class="fade">
-            <a href="">
-              <img width="90%" src="{% static 'img/django-logo-positive.svg' %}">
-            </a>
-          </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="{% static 'img/011_logo.jpg' %}" alt="">
+                    <div class="intro-text">
+                                                <div class="page-scroll">
+                            <a href="#about" class="btn btn-circle">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="content_block col">
-{% block body %}{% endblock %}
-{% block gall_ent %}{% endblock %}
-      </div>
-      <div class="bg_content_block col"></div>
-      <div class="bg_right_bot_block col"></div>
-    </div>
-    <div class="footer_row">
-      <div class="footer col">
-        
-      </div>
-<div class="footer_text">copyright zerooneone 2014  |  P: 0433871421  |  E: info@zerooneone.com  |   ABN: 61 296 762 067
+    </header>
+
+<section class="blue" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>About</h1>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Zero One One is a unique colaboration of IT professionals specialising in affordable high end grapical and web applications.</p><p>Previously Django web development has been unatainable for many businesses due to the high entry level price and geographical limitations.</p>
+                </div>
+                <div class="col-lg-4">
+                   <p>We have formed a network of high level designers/developers who can work on projects together using sofisticated version control systems.</p><p>This results in having access to high end developers while keeping runing costs to a minum.</p>
+                   <p>tagline here.</p>
+</div>
+            </div>
         </div>
-    </div>
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
-{% block extra_js %}{% endblock extra_js %}
-  </div>
-<script type="text/javascript">
-$("a[href*='" + location.pathname + "']").addClass("current");
-</script>
-<script src="{% static 'js/prefixfree.min.js' %}"></script>
+    </section>
+
+    <section class="yellow" id="web">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Web</h1>
+                    <hr class="star-light">
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#" class="btn-logo"><i><img src="{% static 'img/python_logo.svg' %}"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-logo"><i><img src="{% static 'img/django_logo.svg' %}"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2 ">
+                    <p>After many years of working with many systems we believe Python and Django to be the very best technology currently available, for rapidly developing high-performing, elegant websites.</p>
+                    <p>Python is a high level, object-oriented programming language. </p>
+                </div>
+                <div class="col-lg-4">
+                   <p>The elegant design and syntax rules of this programming language make it compact and readable even among multi programmer development teams.</p>
+                   <p>Django is a Python Web framework that encourages rapid development and clean, pragmatic design.</p>
+                </div>
+
+                <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+                    <ul class="list-inline">
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="you tube" ><i class="fa fa-fw fa-youtube"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="bitbucket"><i class="fa fa-fw fa-bitbucket"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="pinterest"><i class="fa fa-fw fa-pinterest"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="washington post"><i><img src="{% static 'img/washington_post_logo.svg' %}"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="mozilla/firefox"><i><img src="{% static 'img/moz.svg' %}"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="discus"><i><img src="{% static 'img/discus.svg' %}"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="new york times"><i><img src="{% static 'img/nyt.svg' %}"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="the guardian"><i><img src="{% static 'img/guardian.svg' %}"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+                    <small>Some of the organisations that choose to power their web applications with Django</small>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download more information
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+<section class="orange" id="graph">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Graph</h1>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Established in Canberra for the last 10 years.</p>
+<p>After years of working with many systems we believe Python and Django to be the very best technology currently available, for rapidly developing high-performing, elegant websites.
+</p>
+                </div>
+                <div class="col-lg-4">
+                   <p>
+Python is a high level, object-oriented programming language. 
+The elegant design and syntax rules of this programming language make it compact and readable even among multi programmer development teams.</p>
+<p>
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+</p>
+</div>
+
+                    <div class="col-lg-12 text-center">
+                        <p>Some of the organisations that choose to power their web applications with Django</p>
+                        <ul class="list-inline">
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-firefox"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download more information
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="blue" id="mobiledev">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Mobile Dev</h1>
+                    <hr class="star-light">
+                </div>
+            </div>
+<div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive btn-truck" src="{% static 'img/truck_silo_white.svg' %}" alt="">
+            </div>
+ </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2 ">
+                    <p>The ZeroOneOne mobile workstation is used for remote development, on-site meetings and generally having a good time It is really quite an awesome bit of gear.</p>
+                    <p>Here is a brief overview of the setup</p>
+                    <p>Built on an Isuzu NPS 4x4 6.5 ton chassis its really strong and can get in to almost anywhere.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>540watts solar power for running dev machines</p>
+                    <p>300lt fresh water</p>
+                    <p>30lt hot water</p>
+                    <p>Stainless steel kitchen complete with oven/stove and 130lt fridge</p>
+                    <p>Shower</p>
+                    <p>Queen Size bed</p>
+                </div>
+                <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+                    <ul class="list-inline">
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="you tube" ><i class="fa fa-fw fa-youtube"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="bitbucket"><i class="fa fa-fw fa-bitbucket"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline" data-toggle="tooltip" title="pinterest"><i class="fa fa-fw fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+                    <small>Check out of the places we have been</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="pink" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Contact Us</h1>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Established in Canberra for the last 10 years.</p>
+<p>After years of working with many systems we believe Python and Django to be the very best technology currently available, for rapidly developing high-performing, elegant websites.
+</p>
+                </div>
+                <div class="col-lg-4">
+                   <p>
+Python is a high level, object-oriented programming language. 
+The elegant design and syntax rules of this programming language make it compact and readable even among multi programmer development teams.</p>
+<p>
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+</p>
+</div>
+
+                    <div class="col-lg-12 text-center">
+                        <p>Some of the organisations that choose to power their web applications with Django</p>
+                        <ul class="list-inline">
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-firefox"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download more information
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place
+                            <br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelance</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; 2014 - Zero One One
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="{% static 'js/jquery-1.10.2.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="{% static 'js/classie.js' %}"></script>
+    <script src="{% static 'js/cbpAnimatedHeader.js' %}"></script>
+    <script src="{% static 'js/zoo.js' %}"></script>
+    <script>$(function () { $("[data-toggle='tooltip']").tooltip(); });</script>
 </body>
+
 </html>
-
-
-

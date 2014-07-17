@@ -1,5 +1,13 @@
 {% load tree_menu_tags %}{% ifequal menu_type "unordered-list" %}
-<ul>{% for menu_item in menu.root_item.children %}{% show_menu_item menu_item %}{% endfor %}
-</ul>{% endifequal %}{% ifequal menu_type "ordered-list" %}
-<ol>{% for menu_item in menu.root_item.children %}{% show_menu_item menu_item %}{% endfor %}
-</ol>{% endifequal %}
+<ul class="nav navbar-nav navbar-right">{% for menu_item in menu.root_item.children %}{% show_menu_item menu_item %}{% endfor %}
+</ul>{% endifequal %}
+
+
+
+
+
+
+
+
+      
+
