@@ -7,9 +7,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="" />
+    <meta name="description" content="Creating quick and easy responsive web sites using python and django and flawless graphics.">
+    <meta name="keywords" content="responsive, web design, django, python, canberra webdesign, australia web design">
+    <meta name="author" content="Antony Williams">
 
     <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" /> 
 
@@ -28,6 +28,8 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+
+    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
 
 </head>
 
@@ -302,10 +304,6 @@
                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube-square"></i></a>
                             </li>
                             <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
                             </li>
                         </ul>
                     </div>
