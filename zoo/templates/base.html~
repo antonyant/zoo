@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
+                <div class="col-lg-4 col-lg-offset-2 col-xs-8 col-xs-offset-2">
                     <p>Zero One One is a unique colaboration of IT professionals specialising in affordable high end grapical and web applications.</p><p>Previously Django web development has been unatainable for many businesses due to the high entry level price and geographical limitations.</p>
                 </div>
                 <div class="col-lg-4">
@@ -146,7 +146,7 @@
                         </li>
                         <li><div class="btn-social btn-outline" data-toggle="tooltip" title="pinterest"><i class="fa fa-fw fa-pinterest"></i></div>
                         </li>
-                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="washington post"><i><img src="{% static 'img/washington_post_logo.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="washington post"><i><img src="{% static 'img/washington_post_logo.svg' %}"></i></div>
                         </li>
                         <li><div class="btn-social btn-outline" data-toggle="tooltip" title="mozilla/firefox"><i><img src="{% static 'img/moz.svg' %}"></i></div>
                         </li>
@@ -162,7 +162,7 @@
                     <small>Some of the organisations that choose to power their web applications with Django</small>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
+                    <a href="{% static 'img/zerooneone_web_info.pdf' %}" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download PDF
                     </a>
                 </div>
@@ -190,13 +190,13 @@
 
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                     <ul class="list-inline">
-                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="gimp raster graphics"><i><img src="{% static 'img/gimp.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="gimp raster graphics"><i><img src="{% static 'img/gimp.svg' %}"></i></div>
                         </li>
-                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="inscape vector graphics"><i><img src="{% static 'img/inkscape.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="inscape vector graphics"><i><img src="{% static 'img/inkscape.svg' %}"></i></div>
                         </li>
-                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="scribus desktop publishing"><i><img src="{% static 'img/scribus.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="scribus desktop publishing"><i><img src="{% static 'img/scribus.svg' %}"></i></div>
                         </li>
-                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="blender 3D graphics"><i><img src="{% static 'img/blender.svg' %}"></i></a>
+                        <li><div class="btn-social btn-outline" data-toggle="tooltip" title="blender 3D graphics"><i><img src="{% static 'img/blender.svg' %}"></i></div>
                         </li>
                     </ul>
                 </div>

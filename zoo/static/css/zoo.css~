@@ -6,7 +6,7 @@ body {
     background-image: url(../img/bg_test.svg);
     background-color: none; 
     z-index:2; 
-position:fixed;
+    position:fixed;
     background-repeat:no-repeat; 
     background-position:top;
     -webkit-background-size: cover;
@@ -84,43 +84,7 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
-@media(min-width:768px) {
-    header .container {
-        padding: 200px 0 100px;
-    }
 
-    header .intro-text .name {
-        font-size: 5em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-}
-
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -139,7 +103,8 @@ header .intro-text .skills {
     letter-spacing: 1px;
 }
 
-.navbar .navbar-nav li a:focus {    -webkit-transition: background .3s ease-in-out;
+.navbar .navbar-nav li a:focus {    
+    -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
     outline: 0;
@@ -169,16 +134,13 @@ section.blue {
     margin-bottom: 15%;
     color: #fff;
     background: #81b0ff;
-background-image: url(../img/);
-background-size:contain;
-background-repeat:no-repeat;
 
 }
 
 section.yellow {
     margin-bottom: 15%;
     color: #fff;
-    background: #e8be00;
+    background: #f3ce00;
 }
 
 section.orange {
@@ -199,22 +161,14 @@ section.pink {
     background: #c83771;
 }
 
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
-    }
-}
-
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
     background: 0 0;
+    z-index: 15;  
+    position:relative;
     transition: all .3s ease-in-out;
 }
 
@@ -223,7 +177,7 @@ section.pink {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: none;
+    color: #fff;
     background: #ccc;
 }
 
@@ -410,6 +364,7 @@ footer .footer-below {
     position:absolute;  
 }
 
+
 .page-scroll .btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
@@ -473,4 +428,52 @@ footer .footer-below {
     background-color: transparent;
 }
 
+@media(max-width:667px){
+
+    .btn-truck {
+    width:auto;
+    height:auto;
+    margin: -350px 0px 0px 10em;   
+    z-index: 5; 
+    position:absolute;  
+    }
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding: 200px 0 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 5em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
 
