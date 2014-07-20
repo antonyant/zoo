@@ -29,8 +29,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
-
 </head>
 
 <body id="page-top">
@@ -92,7 +90,7 @@
                     <p>Zero One One is a unique colaboration of IT professionals specialising in affordable high end grapical and web applications.</p><p>Previously Django web development has been unatainable for many businesses due to the high entry level price and geographical limitations.</p>
                 </div>
                 <div class="col-lg-4">
-                   <p>We have formed a network of high level designers/developers who can work on projects together using sofisticated version control systems.</p><p>This results in having access to high end developers while keeping runing costs to a minum.</p>
+                   <p>We have formed a network of high level designers/developers able to collaborate on projects remotely</p><p>This results in having access to high end developers while keeping runing costs to a minum.</p>
 </div>
             </div>
         </div>
@@ -344,6 +342,16 @@ if (!Modernizr.svg) {
         }
     }
 }
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52963372-1', 'auto');
+  ga('send', 'pageview');
+
     </script>
 
 </body>
