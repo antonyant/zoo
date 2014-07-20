@@ -221,6 +221,8 @@
                     <p>Mobile development at your favorite beach or deep in the jungle</p>
                     <p>Blah, Balh Blah! Blah Bla, Blah.</p>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                     <ul class="list-inline">
                         <li><div class="btn-social btn-outline" data-toggle="tooltip" title="isuzu nps 4x4"><i class="fa fa-truck"></i></div>
@@ -266,6 +268,8 @@
                 <div class="col-lg-4 col-lg-offset-0 col-sm-10 col-sm-offset-1">
                    <p>We will assign a Zero One One representative in your area to contact you and arrange a free quotation on your new project</p>
                 </div>
+            </div>
+            <div class="row">
 
                     <div class="col-lg-12 text-center">
                         <ul class="list-inline">

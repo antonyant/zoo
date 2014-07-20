@@ -237,11 +237,7 @@ section.pink {
 }
 
 .btn-logo {
-    width: auto;
-    height: auto;
-    margin: 0px 1em 0px 1em;   
-    padding: 0px 0px 0px 0px;
-    border: none;
+
     z-index: 5; 
     position:relative;  
 }
