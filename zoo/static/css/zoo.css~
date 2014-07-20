@@ -416,7 +416,7 @@ footer .footer-below {
         font-size: 1.5em;
     }
     .center {
-    height: 12em;
+    height: 13em;
     }
 
 }
