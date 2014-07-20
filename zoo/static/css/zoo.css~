@@ -256,9 +256,7 @@ section.pink {
 }
 
 .btn-truck {
-    width:auto;
-    height:auto;
-    margin: -390px auto 0px auto;   
+    margin-top: -390px;   
     z-index: 5; 
     position:absolute;  
 }
@@ -370,10 +368,8 @@ footer .footer-below {
 
 @media(max-width:667px){
 
-    .btn-truck {
-    width:auto;
-    height:auto;
-    margin: -350px auto 0px auto;   
+    .btn-truck { 
+margin-top:-340px;
     z-index: 5; 
     position:absolute;  
     }

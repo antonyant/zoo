@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
     <meta name="description" content="Creating quick and easy responsive web sites using python and django and flawless graphics.">
     <meta name="keywords" content="responsive, web design, django, python, canberra webdesign, australia web design">
     <meta name="author" content="Antony Williams">
@@ -206,11 +206,11 @@
                     <hr">
                 </div>
             </div>
-<div class="row">
-            <div class="col-lg-12">
-                <img class="img-responsive btn-truck" src="{% static 'img/truck_silo_white.svg' %}">
+
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <img class="btn-truck img-responsive"src="{% static 'img/truck_silo_white.svg' %}">
             </div>
- </div>
+ 
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2 ">
                     <p>The ZeroOneOne mobile workstation is used for remote development, on-site meetings and generally having a good time It is really quite an awesome bit of gear.</p>
