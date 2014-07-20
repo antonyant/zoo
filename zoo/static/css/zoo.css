@@ -258,7 +258,7 @@ section.pink {
 .btn-truck {
     width:auto;
     height:auto;
-    margin: -390px 0px 0px 20em;   
+    margin: -390px auto 0px auto;   
     z-index: 5; 
     position:absolute;  
 }
