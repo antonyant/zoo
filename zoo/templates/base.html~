@@ -86,10 +86,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
+                <div class="col-lg-4 col-lg-offset-2 col-sm-10 col-sm-offset-1">
                     <p>Zero One One is a unique colaboration of IT professionals specialising in affordable high end grapical and web applications.</p><p>Previously Django web development has been unatainable for many businesses due to the high entry level price and geographical limitations.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-lg-offset-0 col-sm-10 col-sm-offset-1">
                    <p>We have formed a network of high level designers/developers able to collaborate on projects remotely</p><p>This results in having access to high end developers while keeping runing costs to a minum.</p>
 </div>
             </div>
@@ -117,15 +117,16 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2 ">
+                <div class="col-lg-4 col-lg-offset-2 col-sm-10 col-sm-offset-1">
                     <p>After many years of working with many systems we believe Python and Django to be the very best technology currently available, for rapidly developing high-performing, elegant websites.</p>
                     <p>Python is a high level, object-oriented programming language. </p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-lg-offset-0 col-sm-10 col-sm-offset-1">
                    <p>The elegant design and syntax rules of this programming language make it compact and readable even among multi programmer development teams.</p>
                    <p>Django is a Python Web framework that encourages rapid development and clean, pragmatic design.</p>
                 </div>
-
+            </div>
+            <div class="row">
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
                     <ul class="list-inline">
                         <li><div class="btn-social btn-outline" data-toggle="tooltip" title="you tube" ><i class="fa fa-fw fa-youtube"></i></div>
@@ -169,17 +170,18 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2 ">
+                <div class="col-lg-4 col-lg-offset-2 col-sm-10 col-sm-offset-1 ">
                     <p>There are millions of websites on the Internet. People have become conditioned to briefly scanning pages and exiting quickly if they don’t feel comfortable or engaged. Get them interested by using engaging and well designed graphics.</p>
                     <p>Compare a plain text page against one with professional graphic design , and it will be easy to see why graphics can turn casual browsers into interested ones.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-lg-offset-0 col-sm-10 col-sm-offset-1">
 <p>Web pages, logos, and print ads with poor graphic design don’t help the viewer access the information they are after.</p>
                    <p>Professionally designed graphics will give your visitor confidence in your business. Zero One One can add life to any project using the latest digital design techniques</p>
                    <p>Call or email today for a free quote for your project</p>
                 </div>
-
-                <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 text-sm col-sm-12 col-xs-12 text-center ">
                     <ul class="list-inline">
                         <li><div class="btn-social btn-outline" data-toggle="tooltip" title="gimp raster graphics"><i><img src="{% static 'img/gimp.svg' %}"></i></div>
                         </li>
@@ -210,13 +212,12 @@
             <div class="col-lg-10 col-lg-offset-1 text-center">
                 <img class="btn-truck img-responsive"src="{% static 'img/truck_silo_white.svg' %}">
             </div>
- 
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2 ">
+                <div class="col-lg-4 col-lg-offset-2 col-sm-10 col-sm-offset-1">
                     <p>The ZeroOneOne mobile workstation is used for remote development, on-site meetings and generally having a good time It is really quite an awesome bit of gear.</p>
                     <p>Built on an Isuzu NPS 4x4 6.5 ton chassis its really strong and can get in to almost anywhere.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-lg-offset-0 col-sm-10 col-sm-offset-1">
                     <p>Mobile development at your favorite beach or deep in the jungle</p>
                     <p>Blah, Balh Blah! Blah Bla, Blah.</p>
                 </div>
@@ -258,11 +259,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
+                <div class="col-lg-4 col-lg-offset-2 col-sm-10 col-sm-offset-1">
                     <p>Contact us with any enquirys regarding your upcoming digital design projects by either email or phone</p>
                     
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-lg-offset-0 col-sm-10 col-sm-offset-1">
                    <p>We will assign a Zero One One representative in your area to contact you and arrange a free quotation on your new project</p>
                 </div>
 
