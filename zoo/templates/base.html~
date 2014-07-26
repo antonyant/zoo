@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Creating quick and easy responsive web sites using python and django and flawless graphics.">
-    <meta name="keywords" content="responsive, web design, django, python, canberra webdesign, australia web design">
+    <meta name="keywords" content="responsive, web design, django, python, canberra web design, Australia web design">
     <meta name="author" content="Antony Williams">
 
     <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" /> 
@@ -86,11 +86,12 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2 col-sm-10 col-sm-offset-1">
-                    <p>Zero One One is a unique colaboration of IT professionals specialising in affordable high end grapical and web applications for small buisneses around Australia.</p><p>The systems we create have the easiest, cleanest, fastest and friendliest customised admin section in the business.</p>
-<p>Updating your new site is easy for anyone with basic computer skills.</p>
+                    <p>Django web sites, web applications and graphical design.</p><p>Zero One One specializes in high quality, affordable graphical and web applications.
+Our skilled IT professionals create the easiest to use, cleanest, fastest and friendliest customized web applications available.</p>
+<p>Updating your new interactive site is simple for anyone with basic computer skills.</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-0 col-sm-10 col-sm-offset-1">
-                   <p>Previously Django web development has been unatainable for small businesses due to the high entry level price. High end development has also been limited to the major capital citys which are able to support large scale design houses.</p><p>Due to Zero One One's unique business structure consisting of a colabration of freelance designers and programers ensures overheads are kept to a minuim. savings we are committed to passing on to you.</p>
+                   <p>We offer high end Django web development which in the past has been the domain of large scale design houses and unattainable to small business due to the high cost.</p><p>Zero One One's unique business structure, built around a collaboration of freelance designers and programmers keeps overheads to a minimum.</p><p>This allows us to pass on savings to the customer to deliver high quality affordable products for even the smallest business.</p>
 </div>
             </div>
         </div>
@@ -150,7 +151,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-12 col-md-12 text-sm text-center col-sm-12 col-xs-12">
-                    <small>Some of the organisations that choose to power their web applications with Django</small>
+                    <small>Some of the organizations that choose to power their web applications with Django</small>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="{% static 'img/zerooneone_web_info.pdf' %}" class="btn btn-lg btn-outline">
@@ -262,7 +263,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2 col-sm-10 col-sm-offset-1">
-                    <p>Contact us with any enquirys regarding your upcoming digital design projects by either email or phone</p>
+                    <p>Contact us with any enquiries regarding your upcoming digital design projects by either email or phone</p>
                     
                 </div>
                 <div class="col-lg-4 col-lg-offset-0 col-sm-10 col-sm-offset-1">
@@ -312,7 +313,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>About aewstudios</h3>
-                        <p>Finally! aewstudios has now been rebranded as Zero One One</p><p> Re-direct aewstudios enquirys</p>
+                        <p>Finally! aewstudios has now been re-branded as Zero One One</p><p> Re-direct aewstudios enquiries</p>
                     </div>
                 </div>
             </div>
